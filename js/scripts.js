@@ -6,42 +6,42 @@
       $(this).parents('body').addClass('nav-showing');
     });
 
-    $('.nav-placeholder').on('click', function (evt) {
+    $('nav.nav-placeholder').on('click', function (evt) {
       evt.preventDefault();
       $(this).parents('body').removeClass('nav-collapsed').addClass('nav-showing');
     });
 
-    $('.breathing-link').on('click', function (evt) {
+    $('nav a.breathing-link').on('click', function (evt) {
       evt.preventDefault();
       $(this).parents('body').removeClass().addClass('breathing-on nav-collapsed');
     });
 
-    $('.beingpresent-link').on('click', function (evt) {
+    $('nav a.beingpresent-link').on('click', function (evt) {
       evt.preventDefault();
       $(this).parents('body').removeClass().addClass('beingpresent-on nav-collapsed');
     });
 
-    $('.mediating-link').on('click', function (evt) {
+    $('nav a.mediating-link').on('click', function (evt) {
       evt.preventDefault();
       $(this).parents('body').removeClass().addClass('mediating-on nav-collapsed');
     });
 
-    $('.connecting-link').on('click', function (evt) {
+    $('nav a..connecting-link').on('click', function (evt) {
       evt.preventDefault();
       $(this).parents('body').removeClass().addClass('connecting-on nav-collapsed');
     });
 
-    $('.disconnecting-link').on('click', function (evt) {
+    $('nav a.disconnecting-link').on('click', function (evt) {
       evt.preventDefault();
       $(this).parents('body').removeClass().addClass('disconnecting-on nav-collapsed');
     });
 
-    $('.looking-link').on('click', function (evt) {
+    $('nav a.looking-link').on('click', function (evt) {
       evt.preventDefault();
       $(this).parents('body').removeClass().addClass('looking-on nav-collapsed');
     });
 
-    $('.feeling-link').on('click', function (evt) {
+    $('nav a.feeling-link').on('click', function (evt) {
       evt.preventDefault();
       $(this).parents('body').removeClass().addClass('feeling-on nav-collapsed');
     });

@@ -131,7 +131,7 @@ nav {
 }
 
 .nav-collapsed {
-  nav {
+  nav a {
     display: none;
   }
   .nav-placeholder {
@@ -150,51 +150,46 @@ nav {
 
 // ----------------------------------------- Home ------------------------------------------------
 
+.start {
+  header.home {
+    h1 {
+      display: block;
+      margin: 0;
+      font-family: Georgia;
+      font-style: italic;
+      font-weight: normal;
+      text-align: center;
+      line-height: 20vh;
+      a, a:link, a:visited, a:focus {
+        color: rgba(255,255,255,0.9);
+      }
+      font-size: 20vw;
+      @media (min-width: 40em) { 
+        font-size: 12vw;
+      }      
+    }  
+    overflow: hidden;    
+    background: #d8ecf3 url('../images/sky.jpg') center center;
+    @include background-size (cover);
+    min-height: 100vh;
+    padding:  40vh 0;  
+    h1 {
+      -webkit-animation: 6000ms linear 0s normal none infinite breathe-bigger;
+              animation: 6000ms linear 0s normal none infinite breathe-bigger;
+    }
+    @media (min-width: 40em) { 
+      h1 {
+        -webkit-animation: 6000ms linear 0s normal none infinite breathe;
+                animation: 6000ms linear 0s normal none infinite breathe;
+      }
+    }      
+  }
+}
 header.home {
   h1 {
-//    position: absolute;
-// display: none;
-    margin: 0;
-    font-family: Georgia;
-    font-style: italic;
-    font-weight: normal;
-    text-align: center;
-    line-height: 20vh;
-    a, a:link, a:visited, a:focus {
-      color: rgba(255,255,255,0.9);
-    }
-    font-size: 20vw;
-    @media (min-width: 40em) { 
-      font-size: 12vw;
-    }      
-  }  
-//  @include perspective(600px);
-  overflow: hidden;    
-  background: #d8ecf3 url('../images/sky.jpg') center center;
-  @include background-size (cover);
-  min-height: 100vh;
-  padding:  40vh 0;  
-  h1 {
-    -webkit-animation: 6000ms linear 0s normal none infinite breathe-bigger;
-            animation: 6000ms linear 0s normal none infinite breathe-bigger;
+    display: none;
   }
-  @media (min-width: 40em) { 
-    h1 {
-      -webkit-animation: 6000ms linear 0s normal none infinite breathe;
-              animation: 6000ms linear 0s normal none infinite breathe;
-    }
-  }      
-  @include transform (rotateY(0deg));
-  @include transform-style (preserve-3d);
-  -webkit-backface-visibility: hidden; // I didn't write this using Compass syntax
-     -moz-backface-visibility: hidden; // because it doesn't work
-      -ms-backface-visibility: hidden;
-       -o-backface-visibility: hidden;
-          backface-visibility: hidden;
-  @include transition (all 0.8s ease-in-out);
 }
-
-
 // ----------------------------------------- Breathe ---------------------------------------------
 
 .breathing {
