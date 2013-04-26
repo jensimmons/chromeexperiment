@@ -4,18 +4,11 @@
   @include box-sizing(border-box);
 }
 
-// Import custom mixins
-@import "mixins"; 
 
-// Set universal variables
-@import "variables";
-
-// Import fonts
-@import "fontface";
-@import "typography";
-
-// Import Animation Definitions
-@import "animations";
+@import "mixins"; // Import custom mixins
+@import "variables"; // Set universal variables
+@import "typography"; // Import fonts
+@import "animations"; // Import Animation Definitions
 
 
 // ----------------------------------------- Universal -------------------------------------------
