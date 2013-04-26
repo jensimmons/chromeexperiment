@@ -52,6 +52,7 @@ nav {
 .nav-showing nav {
   display: block;
   position: absolute;
+  z-index: 1;
   top: 35vw;
   left: 25vw;
   margin: 0 auto;
@@ -136,6 +137,7 @@ nav {
   }
   .nav-placeholder {
     display: block;
+    z-index: 1;
     position: absolute;
     top: 1vw;
     right: 1vw;
@@ -147,6 +149,21 @@ nav {
     border: 4px solid #fff;   
   }
 }
+
+// ----------------------------------------- Make A Page -----------------------------------------
+
+@mixin make-a-page {
+  display: block;
+  overflow: hidden;    
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100vh;
+  @include background-size (cover);
+  padding: 4em 8em;
+}
+
 
 // ----------------------------------------- Home ------------------------------------------------
 
@@ -185,107 +202,35 @@ nav {
     }      
   }
 }
-header.home {
+header.home { // This will only work when the .start class is removed, because it's lower in the cascade
   h1 {
     display: none;
   }
 }
-// ----------------------------------------- Breathe ---------------------------------------------
+// ----------------------------------------- Breathing -------------------------------------------
 
-.breathing {
-  @include perspective(600px);
-  overflow: hidden;    
-  div.text {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    min-height: 100vh;
-    background: #fcf9f1 url('../images/backgrounds/dust.jpg') center center;
-    @include clearfix;
-    div {
-      width: 90%;
-      margin: 2em auto;
-      @media (min-width: 25em) { 
-        width: 80%;
-        margin: 2.5em auto;
-      }
-      @media (min-width: 40em) { 
-        width: 45%;
-        margin: 3em auto;
-      }
-    }
-    a.fliplinktwo {      
-      color: rgba(85, 80, 48, 0.4);
-      display: block;
-      font-family: 'Trebuchet MS', Helvetica, san-serif;
-      font-size: 180%;
-      margin: 1.4em auto 0;
-      text-align: center;
-      text-transform: uppercase;
-
-    }
-    a.fliplinktwo:hover {
-      color: rgba(85, 80, 48, 0.6);
-      opacity: 0.9;
-    }
-    @include transform (rotateY(180deg));
-    @include transform-style (preserve-3d);
-    -webkit-backface-visibility: hidden; // I didn't write this using Compass syntax
-       -moz-backface-visibility: hidden; // because it doesn't work
-        -ms-backface-visibility: hidden;
-         -o-backface-visibility: hidden;
-            backface-visibility: hidden;  
-    @include transition (all .8s ease-in-out);
+.breathing-on .breathing {
+  @include make-a-page;
+  background: #fcf9f1 url('../images/backgrounds/dust.jpg') center center;
+  .nav-showing nav a {
+    opacity: 1; 
   }
-}
-
-.flipone .breathing {
-  header {
-    @include transform (rotateY(-180deg));
-    div {
-      -webkit-animation: none;
-              animation: none;
-    }
-  }
-  div.text {
-    @include transform (rotateY(0deg));
-  }
-}
-
-.fliptwo 
-.breathing {
-  display: none;  
 }
 
 
 // ----------------------------------------- Being Present ---------------------------------------
 
 .beingpresent-on .beingpresent {
-  display: block;
+  @include make-a-page;
   background: orange;
 }
 
 
-// ----------------------------------------- Meditation ------------------------------------------
+// ----------------------------------------- Meditating ------------------------------------------
 
 .mediating-on .mediating {
-  .home,
-  .breathing, 
-  .beingpresent, 
-  .connecting, 
-  .hiding, 
-  .disconnecting, 
-  .looking, 
-  .feeling {
-    display: none;
-  }
-  display: block;
-  background: blue;
-  min-height: 100vh;
-  padding: 2em;
+  @include make-a-page;
   background: #d8d8d8 url('../images/mountainlake.jpg') center center;
-  @include background-size (cover);
   color: #fff;
   @include text-shadow (0 1px 3px rgba(0,0,0,0.5));
   text-align: center;
@@ -299,7 +244,7 @@ header.home {
 // ----------------------------------------- Connecting ------------------------------------------
 
 .connecting-on .connecting {
-  display: block;
+  @include make-a-page;
   background: red;
 }
 
@@ -307,7 +252,7 @@ header.home {
 // ----------------------------------------- Hiding ----------------------------------------------
 
 .hiding-on .hiding {
-  display: block;
+  @include make-a-page;
   background: yellow;
 }
 
@@ -315,7 +260,7 @@ header.home {
 // ----------------------------------------- Disconnecting ---------------------------------------
 
 .disconnecting-on .disconnecting {
-  display: block;
+  @include make-a-page;
   background: blue;
 }
 
@@ -323,7 +268,7 @@ header.home {
 // ----------------------------------------- Looking ---------------------------------------------
 
 .looking-on .looking {
-  display: block;
+  @include make-a-page;
   background: pink;
 }
 
@@ -331,7 +276,7 @@ header.home {
 // ----------------------------------------- Feeling ---------------------------------------------
 
 .feeling-on .feeling {
-  display: block;
+  @include make-a-page;
   background: green;
 }
 
