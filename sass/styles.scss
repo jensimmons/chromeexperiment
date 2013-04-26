@@ -1,9 +1,11 @@
 @import "compass"; // Import Compass: http://compass-style.org
-@import "normalize"; // Reset
-@import "mixins"; // Import custom mixins
+@import "normalize"; // Reset: http://necolas.github.io/normalize.css/
 * { // Switch to Border Box model: http://paulirish.com/2012/box-sizing-border-box-ftw/
   @include box-sizing(border-box);
 }
+
+// Import custom mixins
+@import "mixins"; 
 
 // Set universal variables
 @import "variables";
