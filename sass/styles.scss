@@ -27,7 +27,7 @@ html {
   background-attachment: fixed;
 }
 body {
-	@include perspective(600px);
+  @include perspective(600px);
   transform-style: preserve-3d;
 }
 a, a:link, a:visited {
@@ -188,11 +188,11 @@ header.home {
   }
   @include transform (rotateY(0deg));
   @include transform-style (preserve-3d);
-	-webkit-backface-visibility: hidden; // I didn't write this using Compass syntax
-	   -moz-backface-visibility: hidden; // because it doesn't work
-	    -ms-backface-visibility: hidden;
-	     -o-backface-visibility: hidden;
-	        backface-visibility: hidden;
+  -webkit-backface-visibility: hidden; // I didn't write this using Compass syntax
+     -moz-backface-visibility: hidden; // because it doesn't work
+      -ms-backface-visibility: hidden;
+       -o-backface-visibility: hidden;
+          backface-visibility: hidden;
   @include transition (all 0.8s ease-in-out);
 }
 
@@ -200,7 +200,7 @@ header.home {
 // ----------------------------------------- Breathe ---------------------------------------------
 
 .breathing {
-	@include perspective(600px);
+  @include perspective(600px);
   overflow: hidden;    
   div.text {
     position: absolute;
@@ -238,11 +238,11 @@ header.home {
     }
     @include transform (rotateY(180deg));
     @include transform-style (preserve-3d);
-  	-webkit-backface-visibility: hidden; // I didn't write this using Compass syntax
-  	   -moz-backface-visibility: hidden; // because it doesn't work
-  	    -ms-backface-visibility: hidden;
-  	     -o-backface-visibility: hidden;
-  	        backface-visibility: hidden;  
+    -webkit-backface-visibility: hidden; // I didn't write this using Compass syntax
+       -moz-backface-visibility: hidden; // because it doesn't work
+        -ms-backface-visibility: hidden;
+         -o-backface-visibility: hidden;
+            backface-visibility: hidden;  
     @include transition (all .8s ease-in-out);
   }
 }
