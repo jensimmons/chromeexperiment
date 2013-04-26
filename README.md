@@ -1,5 +1,5 @@
-Created by 
-Jen Simmons
-Brooklyn, New York
-twitter: @jensimmons 
-http://jensimmons.com
+Demo at:
+http://experiment.jensimmons.com
+
+Created by Jen Simmons, Brooklyn, New York. 
+Twitter: @jensimmons. http://jensimmons.com
