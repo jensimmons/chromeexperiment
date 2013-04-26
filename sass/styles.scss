@@ -40,16 +40,15 @@ a, a:link, a:visited {
 .feeling {
   display: none;
 }
-
-
-// ----------------------------------------- Navigation ------------------------------------------
-
-header.home {
-  position: relative;
-}
 nav {
   display: none;
 }
+.nav-placeholder {
+  display: none;
+}
+
+// ----------------------------------------- Navigation ------------------------------------------
+
 .nav-showing nav {
   display: block;
   position: absolute;
@@ -131,21 +130,21 @@ nav {
   }
 }
 
-.nav-collapsed nav {
-  display: block;
-  position: absolute;
-  top: 5vw;
-  right: 5vw;
-  margin: 0 auto;
-  width: 10vw;
+.nav-collapsed {
+  nav {
+    display: none;
+  }
+  .nav-placeholder {
+    display: block;
+    position: absolute;
+    top: 5vw;
+    right: 5vw;
     height: 10vw;
     width: 10vw;
     background: #000;
     opacity: 0.6;
     @include border-radius (100px);
-    border: 10px solid #fff;
-  a {
-    display: none;
+    border: 10px solid #fff;    
   }
 }
 
@@ -176,9 +175,15 @@ header.home {
   min-height: 100vh;
   padding:  40vh 0;  
   h1 {
-    -webkit-animation: 6000ms linear 0s normal none infinite breathe;
-            animation: 6000ms linear 0s normal none infinite breathe;
+    -webkit-animation: 6000ms linear 0s normal none infinite breathe-bigger;
+            animation: 6000ms linear 0s normal none infinite breathe-bigger;
   }
+  @media (min-width: 40em) { 
+    h1 {
+      -webkit-animation: 6000ms linear 0s normal none infinite breathe;
+              animation: 6000ms linear 0s normal none infinite breathe;
+    }
+  }      
   @include transform (rotateY(0deg));
   @include transform-style (preserve-3d);
   -webkit-backface-visibility: hidden; // I didn't write this using Compass syntax

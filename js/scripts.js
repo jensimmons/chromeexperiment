@@ -1,9 +1,14 @@
 (function ($) {
   $(document).ready(function() {
   
-    $('.fliplinkone').on('click', function (evt) {
+    $('.stepone').on('click', function (evt) {
       evt.preventDefault();
       $(this).parents('body').addClass('nav-showing');
+    });
+
+    $('.nav-placeholder').on('click', function (evt) {
+      evt.preventDefault();
+      $(this).parents('body').removeClass('nav-collapsed').addClass('nav-showing');
     });
 
     $('.breathing-link').on('click', function (evt) {
