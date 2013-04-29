@@ -40,23 +40,17 @@ a, a:link, a:visited {
 .feeling {
   display: none;
 }
-nav {
-  display: none;
-  @include transition (display 2s);
-}
-.nav-placeholder {
-  display: none;
-}
 
-// ----------------------------------------- Navigation ------------------------------------------
 
 nav {
+  opacity: 0;
   position: relative;
+  @include transition (1s);
   a {
-    @include transition;
+    @include transition (1s);
     text-indent: -9999px;
     background: rgba(0,0,0,0.8);
-    opacity: 0.6;
+    opacity: 0.8;
     @include border-radius (100px);   
     border: 10px solid #fff;
     height: 4vw;
@@ -64,11 +58,53 @@ nav {
     z-index: -100; 
   }
 }
+.nav-placeholder {
+  opacity: 0;
+  @include transition (1s);
+  display: block;
+  z-index: 1;
+  position: absolute;
+  top: 1vw;
+  left: 1vw;
+  height: 40vw;
+  width: 40vw;    
+  background: rgba(0,0,0,0.5);
+  @include border-radius (100px);
+  border: 8px solid #fff;  
+  @media (min-width: 10em) { 
+    top: 1vw;
+    right: 1vw;
+    height: 20vw;
+    width: 20vw;    
+  } 
+  @media (min-width: 20em) { 
+    top: 1vw;
+    right: 1vw;
+    height: 10vw;
+    width: 10vw;    
+  } 
+  @media (min-width: 30em) { 
+    top: 1vw;
+    right: 1vw;
+    height: 7vw;
+    width: 7vw;    
+  } 
+  @media (min-width: 40em) { 
+    top: 1vw;
+    right: 1vw;
+    height: 4vw;
+    width: 4vw;    
+  } 
+}
+
+// ----------------------------------------- Navigation Reveal -----------------------------------
+
 .nav-showing nav {
   display: block;
+  opacity: 1;
   position: absolute;
   top: 0;
-  z-index: 1;
+  z-index: 500;
   margin-left: 21vw; // why isn't this 25vw? 100-50/2 = 25?
   a {
     display: block;
@@ -147,60 +183,26 @@ nav {
   }
 }
 
-.start .home-link {
-  display: none;
-}
 .nav-collapsed {
   nav a {
-    //display: none;
-    position: absolute;
-    top: 0;
-    right: 0;
-  }
-  .nav-placeholder {
-    display: block;
-    z-index: 1;
     position: absolute;
     top: 1vw;
     right: 1vw;
-    height: 40vw;
-    width: 40vw;    
-    background: rgba(0,0,0,0.5);
-    opacity: 0.8;
-    @include border-radius (100px);
-    border: 8px solid #fff;  
-    @media (min-width: 10em) { 
-      top: 1vw;
-      right: 1vw;
-      height: 20vw;
-      width: 20vw;    
-    } 
-    @media (min-width: 20em) { 
-      top: 1vw;
-      right: 1vw;
-      height: 10vw;
-      width: 10vw;    
-    } 
-    @media (min-width: 30em) { 
-      top: 1vw;
-      right: 1vw;
-      height: 7vw;
-      width: 7vw;    
-    } 
-    @media (min-width: 40em) { 
-      top: 1vw;
-      right: 1vw;
-      height: 4vw;
-      width: 4vw;    
-    } 
   }
+  .nav-placeholder {
+    opacity: 0.8;
+  }
+}
+
+.start .home-link {
+  display: none;
 }
 
 a.breathing-link {
   background: url('../images/airbubbles.jpg') center center no-repeat;    
 }
 a.beingpresent-link {
-  background: url('../images/square/blackgrey.gif') center center no-repeat;    
+//  background: url('../images/square/blackgrey.gif') center center no-repeat;    
 }
 a.mediating-link {
   background: url('../images/square/mountainlake.jpg') center center no-repeat;
@@ -291,8 +293,6 @@ header.home { // This will only work when the .start class is removed, because i
     background: #07a1d7 url('../images/airbubbles.jpg') center center no-repeat;
     @include background-size (cover);
     p {
-//      background: rgba(254, 233, 225, 0.7);
-//      background: rgba(7, 137, 199, 0.7);
       background: rgba(0, 4, 6, 0.55);
       font-size: 94%;
       line-height: 1.75em;
@@ -302,6 +302,26 @@ header.home { // This will only work when the .start class is removed, because i
       @media (min-width: 40em) { 
         margin-right: 33%;
       }
+      opacity: 0;
+      animation-name: reveal;
+      animation-duration: 3s;
+      animation-timing-function: ease-in;
+      animation-fill-mode: forwards;
+    }
+    p:nth-child(1) {
+      animation-delay: 0; 
+    }
+    p:nth-child(2) { 
+      animation-delay: 4s; 
+    }
+    p:nth-child(3) { 
+      animation-delay: 11s; 
+    }
+    p:nth-child(4) { 
+      animation-delay: 20s; 
+    }
+    p:nth-child(5) { 
+      animation-delay: 30s; 
     }
   }
 }
@@ -322,17 +342,54 @@ header.home { // This will only work when the .start class is removed, because i
 .mediating-on {
   .mediating {
     @include make-a-page;
+    position: relative;
+    padding-top: 20vh;
     background: #d8d8d8 url('../images/mountainlake.jpg') center center;
     color: #fff;
-    @include text-shadow (0 1px 3px rgba(0,0,0,0.5));
+    @include text-shadow (0px 0px 8px rgba(0, 0, 0, 0.6));
     text-align: center;
-    font-size: 120%;
     p {
-      display: none;
+      width: 75%;
+      font-size: 300%;
+      font-family: $amatic;
+      word-spacing: 0.12em;
+      line-height: 1.6em;
+      text-indent: 0;
+      display: block;
+      position: absolute;
+      top: 3em;
+      opacity: 0;
+      animation: comeandgo 75s linear infinite 0s;
+      z-index: 100;
     } 
+    p:nth-child(1) {
+      opacity: 1;
+      animation-delay: 0; 
+    }
+    p:nth-child(2) { 
+      animation-delay: 15s; 
+    }
+    p:nth-child(3) { 
+      animation-delay: 30s; 
+    }
+    p:nth-child(4) { 
+      animation-delay: 45s; 
+    }
+    p:nth-child(5) { 
+      animation-delay: 60s; 
+    }
   }
 }
 
+// Timer
+// Pure CSS Pie Time by Hugo Giraudel http://codepen.io/HugoGiraudel/details/BHEwo
+.timer {
+  position: relative;
+  margin: 20em auto 0;
+  background: #d0d0d0;
+  z-index: 100;
+}  
+@include timer('.timer', 15, 50px, #999, '0px solid rgba(0,0,0,0.5)');
 
 // ----------------------------------------- Connecting ------------------------------------------
 

@@ -9,7 +9,7 @@
     });
 
 // When the small circle is clicked, show the navigation
-    $('nav.nav-placeholder').on('click', function (evt) {
+    $('.nav-placeholder').on('click', function (evt) {
       evt.preventDefault();
       evt.stopPropagation();
       $(this).parents('body').removeClass('nav-collapsed').addClass('nav-showing');
