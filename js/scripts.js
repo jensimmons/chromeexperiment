@@ -5,7 +5,7 @@
     $('.stepone').on('click', function (evt) {
       evt.preventDefault();
       evt.stopPropagation();
-      $(this).parents('body').addClass('nav-showing');
+      $(this).parents('body').removeClass('nav-collapsed').addClass('nav-showing');
     });
 
 // When the small circle is clicked, show the navigation
@@ -55,6 +55,11 @@
       evt.preventDefault();
       evt.stopPropagation();
       $(this).parents('body').removeClass().addClass('feeling-on nav-collapsed');
+    });    
+    $('nav a.home-link').on('click', function (evt) {
+      evt.preventDefault();
+      evt.stopPropagation();
+      $(this).parents('body').removeClass().addClass('start nav-collapsed');
     });    
     
   });
