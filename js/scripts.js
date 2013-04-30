@@ -61,6 +61,14 @@
       evt.stopPropagation();
       $(this).parents('body').removeClass().addClass('start nav-collapsed');
     });    
-    
+
+
+// Switch classes to trigger flip of content
+		$('.card').hover(function(){
+			$(this).addClass('flip');
+		},function(){
+			$(this).removeClass('flip');
+		});			
+
   });
 })(jQuery);

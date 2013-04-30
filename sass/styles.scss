@@ -352,10 +352,53 @@ header.home { // This will only work when the .start class is removed, because i
   .beingpresent {
     @include make-a-page;
     background: #d3c9b9 url('../images/dogs.jpg') center center no-repeat;
-        @include background-size (cover);
-
+    @include background-size (cover);
+    
+    @media (min-width: 30em) { 
+      .card {
+        float: left;
+        width: 50%;
+      }
+      .text {
+        float: right;
+        width: 50%;
+      }
+    }
+    
+// Let's get the Flip Animation Going    
+    @include perspective(600px); 
+    .front {
+      @include transform (rotateY(0deg));
+    	-webkit-backface-visibility: hidden; 
+    	   -moz-backface-visibility: hidden; 
+    	    -ms-backface-visibility: hidden;
+    	     -o-backface-visibility: hidden;
+    	        backface-visibility: hidden;
+      @include transition (all 0.4s ease-in-out);
+    }
+    .back {
+      @include transform (rotateY(180deg));
+      @include transform-style (preserve-3d);
+    	-webkit-backface-visibility: hidden; 
+    	   -moz-backface-visibility: hidden; 
+    	    -ms-backface-visibility: hidden;
+    	     -o-backface-visibility: hidden;
+    	        backface-visibility: hidden;  
+      @include transition (all .4s ease-in-out);
+    }
+    .flip {
+      .front {
+        @include transform (rotateY(-180deg));
+      }
+      .back {
+        @include transform (rotateY(0deg));
+      }
+    }
   }
 }
+
+
+
 
 
 // ----------------------------------------- Meditating ------------------------------------------
