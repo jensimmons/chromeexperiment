@@ -50,7 +50,7 @@ nav {
     @include transition  (1s);
     text-indent: -9999px;
     background: rgba(0,0,0,0.8);
-    opacity: 0.8;
+    opacity: 1;
     @include border-radius (100px);   
     border: 10px solid #fff;
     height: 4vw;
@@ -203,7 +203,7 @@ a.breathing-link {
   background: url('../images/airbubbles.jpg') center center no-repeat;    
 }
 a.beingpresent-link {
-//  background: url('../images/square/blackgrey.gif') center center no-repeat;    
+  background: url('../images/square/dogs.jpg') center center no-repeat;
 }
 a.mediating-link {
   background: url('../images/square/mountainlake.jpg') center center no-repeat;
@@ -218,13 +218,13 @@ a.disconnecting-link {
   
 }
 a.looking-link {
-  
+  background: url('../images/square/nebula.jpg') center center no-repeat;
 }
 a.feeling-link {
-  
+
 }
 a.home-link {
-  background: #d8ecf3 url('../images/square/sky.jpg') center center;    
+  background: url('../images/square/sky.jpg') center center no-repeat;    
 }
 
 
@@ -351,7 +351,9 @@ header.home { // This will only work when the .start class is removed, because i
 .beingpresent-on {
   .beingpresent {
     @include make-a-page;
-    background: orange;
+    background: #d3c9b9 url('../images/dogs.jpg') center center no-repeat;
+        @include background-size (cover);
+
   }
 }
 
@@ -461,7 +463,11 @@ header.home { // This will only work when the .start class is removed, because i
 .looking-on {
   .looking {
     @include make-a-page;
-    background: pink;
+    background: #d8d8d8 url('../images/nebula.jpg') center center;
+    @include background-size (cover);
+    div {
+      background: rgba(255,255,255,0.5);
+    }
   }
 }
 
