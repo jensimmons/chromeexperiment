@@ -239,7 +239,13 @@ a.home-link {
   width: 100%;
   min-height: 100vh;
   @include background-size (cover);
-  padding: 4em 8em;
+  padding: 0.5em;
+  @media (min-width: 25em) { 
+    padding: 1em 2em;
+  }      
+  @media (min-width: 40em) { 
+    padding: 4em 8em;
+  }      
 }
 
 
@@ -296,12 +302,15 @@ header.home { // This will only work when the .start class is removed, because i
     p {
       background: rgba(0, 4, 6, 0.55);
       font-size: 94%;
-      line-height: 1.75em;
+      line-height: 1.5em;
       margin: 0.5em 0;
-      padding: 1.4em 1.8em 1.3em;
+      padding: 1em 1.2em;      
       color: #fff;
+      text-indent: 0;
       @media (min-width: 40em) { 
         margin-right: 33%;
+        padding: 1.4em 1.8em 1.3em;
+        line-height: 1.75em;
       }
       opacity: 0;
       -webkit-animation-name: reveal;
@@ -353,21 +362,31 @@ header.home { // This will only work when the .start class is removed, because i
   .mediating {
     @include make-a-page;
     position: relative;
-    padding-top: 20vh;
     background: #d8d8d8 url('../images/mountainlake.jpg') center center;
     color: #fff;
     @include text-shadow (0px 0px 8px rgba(0, 0, 0, 0.6));
     text-align: center;
+    padding-top: 5vh;
+    @media (min-width: 20em) { 
+      padding-top: 10vh;
+    }
+    @media (min-width: 40em) { 
+      padding-top: 20vh;
+    }
     p {
-      width: 75%;
+      width: 89vw;
       font-size: 300%;
       font-family: $amatic;
       word-spacing: 0.12em;
       line-height: 1.6em;
       text-indent: 0;
+      background: rgba(0, 0, 0, 0.4);
       display: block;
       position: absolute;
-      top: 3em;
+      top: 10vw;
+      @media (min-width: 40em) { 
+        width: 75%;
+      }
       opacity: 0;
       -webkit-animation: comeandgo 75s linear infinite 0s;
       animation: comeandgo 75s linear infinite 0s;
