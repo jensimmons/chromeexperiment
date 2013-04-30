@@ -21,8 +21,14 @@
   100%  {-webkit-transform: scale(1)}
 }
 
-
 @keyframes comeandgo { 
+    0% { opacity: 0; animation-timing-function: ease-in; }
+    3% { opacity: 1; animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    20% { opacity: 0 }
+    100% { opacity: 0 }
+}
+@-webkit-keyframes comeandgo { 
     0% { opacity: 0; animation-timing-function: ease-in; }
     3% { opacity: 1; animation-timing-function: ease-out; }
     17% { opacity: 1 }
@@ -35,8 +41,17 @@
     3% { opacity: 1; animation-timing-function: ease-out; }
     100% { opacity: 1 }
 }
+@-webkit-keyframes slowreveal { 
+    0% { opacity: 0; animation-timing-function: ease-in; }
+    3% { opacity: 1; animation-timing-function: ease-out; }
+    100% { opacity: 1 }
+}
 
 @keyframes reveal { 
+    0% { opacity: 0 }
+    100% { opacity: 1 }
+}
+@-webkit-keyframes reveal { 
     0% { opacity: 0 }
     100% { opacity: 1 }
 }

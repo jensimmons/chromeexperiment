@@ -47,7 +47,7 @@ nav {
   position: relative;
   @include transition (1s);
   a {
-    @include transition (1s);
+    @include transition  (1s);
     text-indent: -9999px;
     background: rgba(0,0,0,0.8);
     opacity: 0.8;
@@ -60,7 +60,8 @@ nav {
 }
 .nav-placeholder {
   opacity: 0;
-  @include transition (1s);
+  -webkit-transition: opacity 1s 0.6s;
+  transition: 1s;
   display: block;
   z-index: 1;
   position: absolute;
@@ -303,24 +304,33 @@ header.home { // This will only work when the .start class is removed, because i
         margin-right: 33%;
       }
       opacity: 0;
+      -webkit-animation-name: reveal;
+      -webkit-animation-duration: 3s;
+      -webkit-animation-timing-function: ease-in;
+      -webkit-animation-fill-mode: forwards;
       animation-name: reveal;
       animation-duration: 3s;
       animation-timing-function: ease-in;
       animation-fill-mode: forwards;
     }
     p:nth-child(1) {
+      -webkit-animation-delay: 0; 
       animation-delay: 0; 
     }
     p:nth-child(2) { 
+      -webkit-animation-delay: 4s; 
       animation-delay: 4s; 
     }
     p:nth-child(3) { 
+      -webkit-animation-delay: 11s; 
       animation-delay: 11s; 
     }
     p:nth-child(4) { 
+      -webkit-animation-delay: 19s; 
       animation-delay: 20s; 
     }
     p:nth-child(5) { 
+      -webkit-animation-delay: 25s; 
       animation-delay: 30s; 
     }
   }
@@ -359,23 +369,29 @@ header.home { // This will only work when the .start class is removed, because i
       position: absolute;
       top: 3em;
       opacity: 0;
+      -webkit-animation: comeandgo 75s linear infinite 0s;
       animation: comeandgo 75s linear infinite 0s;
       z-index: 100;
     } 
     p:nth-child(1) {
       opacity: 1;
+      -webkit-animation-delay: 0; 
       animation-delay: 0; 
     }
     p:nth-child(2) { 
+      -webkit-animation-delay: 15s; 
       animation-delay: 15s; 
     }
     p:nth-child(3) { 
+      -webkit-animation-delay: 30s; 
       animation-delay: 30s; 
     }
     p:nth-child(4) { 
+      -webkit-animation-delay: 45s; 
       animation-delay: 45s; 
     }
     p:nth-child(5) { 
+      -webkit-animation-delay: 60s; 
       animation-delay: 60s; 
     }
   }

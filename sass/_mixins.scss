@@ -50,7 +50,7 @@
   #{$item} .pie {
     width: 50%;
     height: 100%;
-    transform-origin: 100% 50%;
+    @include transform-origin (100% 50%);
     position: absolute;
     background: $color;
     border: #{$border};
@@ -59,11 +59,13 @@
     border-radius: 100% 0 0 100% / 50% 0 0 50%;
     z-index: 200;
     border-right: none;
+    -webkit-animation: rota $duration + s linear infinite;
     animation: rota $duration + s linear infinite;
   }
   #{$item}:hover .spinner,
   #{$item}:hover .filler, 
   #{$item}:hover .mask {
+    -webkit-animation-play-state: $hover;    
     animation-play-state: $hover;    
   }
   #{$item} .filler {
@@ -71,6 +73,7 @@
     left: 50%;
     opacity: 0;
     z-index: 100;
+    -webkit-animation: opa $duration + s steps(1,end) infinite reverse;
     animation: opa $duration + s steps(1,end) infinite reverse;
     border-left: none;
   }
@@ -81,11 +84,12 @@
     background: inherit;
     opacity: 1;
     z-index: 300;
+    -webkit-animation: opa $duration + s steps(1,end) infinite;
     animation: opa $duration + s steps(1,end) infinite;
   }
   @keyframes rota {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+    0% { @include transform (rotate(0deg)); }
+    100% { @include transform (rotate(360deg)); }
   }
   @keyframes opa {
     0% { opacity: 1; }
