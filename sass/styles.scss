@@ -71,6 +71,12 @@ nav {
   background: rgba(0,0,0,0.5);
   @include border-radius (100px);
   border: 8px solid #fff;  
+  @media (min-width: 50em) { 
+    top: 10px;
+    left: 10px;
+    height: 60px;
+    width: 60px;        
+  }
 }
 
 // ----------------------------------------- Navigation Reveal -----------------------------------
@@ -437,6 +443,7 @@ header.home { // This will only work when the .start class is removed, because i
     .wrapper {
       padding: 1em 2em;
       background: rgba(255,255,255,0.8);
+      @include box-shadow (0 0 10px rgba(0, 0, 0, 0.2));
     }
   }
 }
