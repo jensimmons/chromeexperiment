@@ -1022,7 +1022,7 @@ a.disconnecting-link {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003174}}
 a.looking-link {
-  background: url("../images/square/nebula.jpg") center center no-repeat;
+  background: url("../images/square/glass.jpg") center center no-repeat;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003177}}
@@ -1522,7 +1522,7 @@ header.home h1 {
   -o-background-size: cover;
   background-size: cover;
   padding: 0.5em;
-  background: #d8d8d8 url("../images/nebula.jpg") center center;
+  background: #d8d8d8 url("../images/glass.jpg") center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1542,5 +1542,7 @@ header.home h1 {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003459}}
 .looking-on .looking div {
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(0, 0, 0, 0.4);
+  padding: 2em;
+  color: #fff;
 }

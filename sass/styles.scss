@@ -172,7 +172,7 @@ a.disconnecting-link {
   background: url('../images/square/snow.jpg') center center no-repeat;
 }
 a.looking-link {
-  background: url('../images/square/nebula.jpg') center center no-repeat;
+  background: url('../images/square/glass.jpg') center center no-repeat;
 }
 a.home-link {
   background: url('../images/square/sky.jpg') center center no-repeat;    
@@ -454,10 +454,12 @@ header.home { // This will only work when the .start class is removed, because i
 .looking-on {
   .looking {
     @include make-a-page;
-    background: #d8d8d8 url('../images/nebula.jpg') center center;
+    background: #d8d8d8 url('../images/glass.jpg') center center;
     @include background-size (cover);
     div {
-      background: rgba(255,255,255,0.5);
+      background: rgba(0,0,0,0.4);
+      padding: 2em;
+      color: #fff;
     }
   }
 }
