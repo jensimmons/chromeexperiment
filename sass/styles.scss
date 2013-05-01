@@ -215,7 +215,7 @@ a.hiding-link {
   
 }
 a.disconnecting-link {
-  
+  background: url('../images/square/snow.jpg') center center no-repeat;
 }
 a.looking-link {
   background: url('../images/square/nebula.jpg') center center no-repeat;
@@ -496,7 +496,12 @@ header.home { // This will only work when the .start class is removed, because i
 .disconnecting-on {
   .disconnecting {
     @include make-a-page;
-    background: #B3B2DC;
+    background: #edebff url('../images/snow.jpg') center center no-repeat;
+    @include background-size (cover);
+    .wrapper {
+      padding: 1em 2em;
+      background: rgba(255,255,255,0.8);
+    }
   }
 }
 
