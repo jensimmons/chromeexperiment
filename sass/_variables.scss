@@ -46,12 +46,12 @@ $courier:           "Courier New", "DejaVu Sans Mono", monospace, sans-serif;
 $amatic:            "Amatic SC", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $opensans:          "Open Sans", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 $opencondensed:     "Open Sans Condensed", sans-serif;
-
+$averia:            "Averia Serif Libre", Georgia, "Times New Roman", "DejaVu Serif", serif;
 
 // Now let's create variables for fonts in use
-$base-font:         $opensans; 
-$body-font:         $opensans;
-$headline-font:     $amatic;
+$base-font:         $averia; 
+$body-font:         $averia;
+$headline-font:     $averia;
 $interface-font:    $opencondensed;
 $alt-font:          $opencondensed;
 $monospace-font:    $courier;

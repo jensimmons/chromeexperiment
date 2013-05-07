@@ -38,6 +38,28 @@
   }
 }
 
+// Compass Doesn't support transforms & transitions yet. I don't know why. So here's some filler.
+
+@mixin transform($n) {
+	-webkit-transform:$n;
+	-moz-transform:$n;
+	-ms-transform:$n;
+	-o-transform:$n;
+	transform:$n;
+	}
+@mixin transform-origin($n) {
+	-webkit-transform-origin:$n;
+	-moz-transform-origin:$n;
+	-ms-transform-origin:$n;
+	-o-transform-origin:$n;
+	transform-origin:$n;
+	}
+@mixin transition($n) {
+	-webkit-transition:$n;
+	-moz-transition:$n;
+	-o-transition:$n;
+	transition:$n;
+	}
 
 // Pure CSS Pie Timer by Hugo Giraudel http://codepen.io/HugoGiraudel/details/BHEwo
 

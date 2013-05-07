@@ -26,9 +26,7 @@ body {
 a, a:link, a:visited {
   text-decoration: none;
 }
-dl {
-  margin: 0;
-}
+
 
 // ----------------------------------------- On Page load ----------------------------------------
 
@@ -43,133 +41,141 @@ dl {
   display: none;
 }
 
-
-// ----------------------------------------- Navigation ------------------------------------------
-
-@mixin nav-circle {
-  height: 80vw;
-  width: 80vw;     
-  text-indent: -9999px;
-  background: rgba(0,0,0,0.8);
-  @include border-radius (100px);   
-  @include box-shadow (0 0 10px rgba(0, 0, 0, 0.2));
-  opacity: 1;
-  @media (min-width: 10em) { 
-    height: 40vw;
-    width: 40vw;  
-  }  
-  @media (min-width: 15em) { 
-    height: 30vw;
-    width: 30vw;  
-  }  
-  @media (min-width: 25em) { 
-    height: 20vw;
-    width: 20vw;  
-  }
-  @media (min-width: 35em) { 
-      height: 15vw;
-      width: 15vw;
-  }
-  @media (min-width: 50em) { 
-      height: 10vw;
-      width: 10vw;
-  }
-  @media (min-width: 60em) { 
-      height: 8vw;
-      width: 8vw;
-  }
-  @media (min-width: 100em) { 
-      height: 100px;
-      width: 100px;
-  }
-}
-
-nav[role="navigation"] {
+nav {
+  opacity: 0;
   position: relative;
-  @include transition (transform 1s);
+  @include transition (1s);
   a {
-    display: block;
-    position: absolute;
-    top: 1vw;
-    left: 1vw;
-    @include nav-circle;
-    @include transition (transform 1s);
-  }
-  a.breathing-link {
-    background: url('../images/airbubbles.jpg') center center no-repeat;    
-  }
-  a.beingpresent-link {
-    background: url('../images/square/dogs.jpg') center center no-repeat;
-  }
-  a.mediating-link {
-    background: url('../images/square/mountainlake.jpg') center center no-repeat;
-  }
-  a.disconnecting-link {
-    background: url('../images/square/snow.jpg') center center no-repeat;
-  }
-  a.looking-link {
-    background: url('../images/square/glass.jpg') center center no-repeat;
-  }
-  a.home-link {
-    background: url('../images/square/nietnagel-woods.jpg') center center no-repeat;    
+    @include transition  (1s);
+    text-indent: -9999px;
+    background: rgba(0,0,0,0.8);
+    opacity: 1;
+    @include border-radius (100px);   
+    border: 10px solid #fff;
+    height: 4vw;
+    width: 4vw;   
+    z-index: -100; 
   }
 }
-
 .nav-placeholder {
-  @include transition (transform 1s);
+  opacity: 0;
+  -webkit-transition: opacity 1s 0.6s;
+  transition: 1s;
   display: block;
   z-index: 1;
   position: absolute;
-  top: 1vw;
-  left: 1vw;
-  @include nav-circle;
-//  opacity: 0;
-  background: rgba(255,255,255,0.75);
+  top: 5px;
+  left: 5px;
+  height: 45px;
+  width: 45px;    
+  background: rgba(0,0,0,0.5);
+  @include border-radius (100px);
+  border: 8px solid #fff;  
+  @media (min-width: 50em) { 
+    top: 10px;
+    left: 10px;
+    height: 60px;
+    width: 60px;        
+  }
+}
+
+// ----------------------------------------- Navigation Reveal -----------------------------------
+
+.nav-showing nav {
+  display: block;
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  z-index: 500;
+  margin-left: 21vw; // why isn't this 25vw? 100-50/2 = 25?
+  a {
+    display: block;
+    height: 50vw;
+    width: 50vw;   
+    margin: 10px 0;
+    @include box-shadow (0 0 10px rgba(0, 0, 0, 0.2));
+  }
+  @media (min-width: 13em) { 
+    margin-top: 5vh;
+    margin-left: 7vw; // why isn't this 5vw ??!?!?! WTF?
+    a {
+      height: 35vw;
+      width: 35vw;  
+      float: left;
+      margin: 10px 4vw;
+    }
+  }  
+  @media (min-width: 23em) { 
+    a {
+      height: 20vw;
+      width: 20vw;  
+      float: left;
+      margin: 10px 4vw;
+    }
+  }
+  @media (min-width: 35em) { 
+    top: 42vh;
+    left: 15vw;
+    width: 70vw;
+    margin: 0;
+    a {
+      margin: 0;
+      height: 15vw;
+      width: 15vw;
+    }
+    a:nth-child(1) {
+    
+    }
+    a:nth-child(2) {
+      margin-top: -22.5vw;
+    }
+    a:nth-child(3) {
+      margin-left: 25vw;
+      margin-top: -22.5vw;
+    }
+    a:nth-child(4) {
+      margin-left: 40vw;
+    }
+    a:nth-child(5) {
+      margin-top: 6vw;
+      margin-left: 15vw;
+    }
+    a:nth-child(6) {
+      margin-left: 9vw;
+      margin-top: 5vw;
+    }
+  }
 }
 
 .nav-collapsed {
-  .nav-placeholder {
-//    opacity: 1;
+  nav a {
+    position: absolute;
+    top: 1vw;
+    right: 1vw;
   }
-  nav[role="navigation"] {
-//    opacity: 0;
+  .nav-placeholder {
+    @include box-shadow (0 0 10px rgba(0, 0, 0, 0.2));
+    opacity: 0.8;
   }
 }
 
-.nav-showing {
-  nav[role="navigation"] {
-    a:nth-child(1) {
-      @include transform (translate(10vw, 10vh));
-    }
-    a:nth-child(2) {
-      @include transform (translate(30vw, 10vh));
-    }
-    a:nth-child(3) {
-      @include transform (translate(10vw, 40vh));
-    }
-    a:nth-child(4) {
-      @include transform (translate(20vw, 40vh));
-    }
-    a:nth-child(5) {
-      @include transform (translate(10vw, 60vh));
-    }
-    a:nth-child(6) {
-      @include transform (translate(0vw, 70vh));
-    }
-    
-    @media (min-width: 30em) { 
-
-    }  
-    
-    @media (min-width: 40em) { 
-
-
-    }
-    @media (min-width: 50em) { 
-
-
-    }
-  }
+a.breathing-link {
+  background: url('../images/airbubbles.jpg') center center no-repeat;    
+}
+a.beingpresent-link {
+  background: url('../images/square/dogs.jpg') center center no-repeat;
+}
+a.mediating-link {
+  background: url('../images/square/mountainlake.jpg') center center no-repeat;
+}
+a.disconnecting-link {
+  background: url('../images/square/snow.jpg') center center no-repeat;
+}
+a.looking-link {
+  background: url('../images/square/glass.jpg') center center no-repeat;
+}
+a.home-link {
+  background: url('../images/square/sky.jpg') center center no-repeat;    
 }
 
 .breathing-on .breathing-link,
@@ -178,10 +184,8 @@ nav[role="navigation"] {
 .disconnecting-on .disconnecting-link,
 .looking-on .looking-link,
 .start .home-link {
-//  display: none;
+  opacity: 0.4;
 }
-
-
 
 // ----------------------------------------- Make A Page -----------------------------------------
 
@@ -206,118 +210,50 @@ nav[role="navigation"] {
 
 // ----------------------------------------- Home ------------------------------------------------
 
-.definition {
-  @include make-a-page;
-  padding: 0;
-  @media (min-width: 25em) { 
-    padding: 0;
-  }
-  background: #356019 url('../images/nietnagel-woods.jpg') center center;
-  @include background-size (cover);
-  color: #fff;
-  a, a:link, a:visited, a:focus {
-    color: #fff;
-  }
-  dl {
-    position: relative;
-    @include clearfix;
-    background: rgba( 0,0,0,0.5);
-    padding: 1.2em 2em 1.2em 1.1em;
-    height: 50vh;
-    margin-top: 50vh;
-    @media (min-width: 25em) { 
-      float: right;
-      width: 50vw;
-      height: 100vh;
+.start {
+  header.home {
+    h1 {
+      display: block;
       margin: 0;
+      font-family: Georgia;
+      font-style: italic;
+      font-weight: normal;
+      text-align: center;
+      line-height: 20vh;
+      a, a:link, a:visited, a:focus {
+        color: rgba(255,255,255,0.9);
+        @include text-shadow (0 0 16px rgba(0, 0, 0, 0.1));
+      }
+      font-size: 20vw;
+      @media (min-width: 40em) { 
+        font-size: 12vw;
+      }      
+    }  
+    overflow: hidden;    
+    background: #d8ecf3 url('../images/sky.jpg') center center;
+    @include background-size (cover);
+    min-height: 100vh;
+    padding:  40vh 0;  
+    h1 {
+      -webkit-animation: 6000ms linear 0s normal none infinite breathe-bigger;
+              animation: 6000ms linear 0s normal none infinite breathe-bigger;
+    }
+    @media (min-width: 40em) { 
+      h1 {
+        -webkit-animation: 6000ms linear 0s normal none infinite breathe;
+                animation: 6000ms linear 0s normal none infinite breathe;
+      }
     }      
   }
-  dt {
-    font-size: 2em;
-    small {
-      font-size: 0.8rem;
-      margin-left: 2em;
-    }
+}
+header.home { // This will only work when the .start class is removed, because it's lower in the cascade
+  h1 {
+    display: none;
   }
-  dd {
-    position: absolute;
-    top: 0;
-    margin: 3.6em 1.6em 3.6em 1em;
-    @media (min-width: 25em) { 
-      margin: 50vh 2em 0 0;
-    }
-    @media (min-width: 35em) { 
-      font-size: 1.8em;
-      line-height: 1.2em;
-    }
-    opacity: 0;
-    -webkit-animation-name: crossfade;
-    -webkit-animation-duration: 66s;
-    -webkit-animation-timing-function: ease-in;
-    -webkit-animation-fill-mode: normal;
-    animation-name: crossfade;
-    animation-duration: 66s;
-    animation-timing-function: ease-in;
-    animation-fill-mode: normal;
-    &:nth-child(2) {
-      -webkit-animation-delay: 0; 
-      animation-delay: 0; 
-    }
-    &:nth-child(3) { 
-      -webkit-animation-delay: 6s; 
-      animation-delay: 6s; 
-    }
-    &:nth-child(4) { 
-      -webkit-animation-delay: 12s; 
-      animation-delay: 12s; 
-    }
-    &:nth-child(5) { 
-      -webkit-animation-delay: 18s; 
-      animation-delay: 18s; 
-    }
-    &:nth-child(6) { 
-      -webkit-animation-delay: 24s; 
-      animation-delay: 24s; 
-    }
-    &:nth-child(7) {
-      -webkit-animation-delay: 30s; 
-      animation-delay: 30s; 
-    }
-    &:nth-child(8) { 
-      -webkit-animation-delay: 36s; 
-      animation-delay: 36s; 
-    }
-    &:nth-child(9) { 
-      -webkit-animation-delay: 42s; 
-      animation-delay: 42s; 
-    }
-    &:nth-child(10) { 
-      -webkit-animation-delay: 48s; 
-      animation-delay: 48s; 
-    }
-    &:nth-child(11) { 
-      -webkit-animation-delay: 54s; 
-      animation-delay: 54s; 
-    }
-    &:nth-child(12) { 
-      -webkit-animation-delay: 60s; 
-      animation-delay: 60s; 
-    }
-    &:nth-child(13) { 
-      -webkit-animation-delay: 33s; 
-      animation-delay: 33s; 
-    }
-    &:nth-child(14) { 
-      -webkit-animation-delay: 36s; 
-      animation-delay: 36s; 
-    }
-  }
-}  
-
-
+}
 // ----------------------------------------- Breathing -------------------------------------------
 
-/*.breathing-on {
+.breathing-on {
   .breathing {
     @include make-a-page;
     background: #07a1d7 url('../images/airbubbles.jpg') center center no-repeat;
@@ -367,7 +303,7 @@ nav[role="navigation"] {
     }
   }
 }
-*/
+
 
 // ----------------------------------------- Being Present ---------------------------------------
 
