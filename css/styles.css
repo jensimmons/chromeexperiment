@@ -954,8 +954,6 @@ nav[role="navigation"] a {
   position: absolute;
   top: 1vw;
   left: 1vw;
-  height: 80vw;
-  width: 80vw;
   text-indent: -9999px;
   background: rgba(0, 0, 0, 0.8);
   -webkit-border-radius: 100px;
@@ -967,23 +965,18 @@ nav[role="navigation"] a {
   -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   opacity: 1;
+  height: 40vw;
+  width: 40vw;
   transition: transform 500ms ease-out;
 }
 @media (min-width: 10em) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\0000389}}
   nav[role="navigation"] a {
-    height: 40vw;
-    width: 40vw;
+    height: 33vw;
+    width: 33vw;
   }
 }
 @media (min-width: 15em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\0000389}}
-  nav[role="navigation"] a {
-    height: 30vw;
-    width: 30vw;
-  }
-}
-@media (min-width: 30em) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\0000389}}
   nav[role="navigation"] a {
     height: 20vw;
@@ -1050,8 +1043,6 @@ nav[role="navigation"] a.home-link {
   position: absolute;
   top: 1vw;
   left: 1vw;
-  height: 80vw;
-  width: 80vw;
   text-indent: -9999px;
   background: rgba(0, 0, 0, 0.8);
   -webkit-border-radius: 100px;
@@ -1063,23 +1054,18 @@ nav[role="navigation"] a.home-link {
   -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   opacity: 1;
+  height: 40vw;
+  width: 40vw;
   background: rgba(255, 255, 255, 0.2);
 }
 @media (min-width: 10em) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003117}}
   .nav-placeholder {
-    height: 40vw;
-    width: 40vw;
+    height: 33vw;
+    width: 33vw;
   }
 }
 @media (min-width: 15em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003117}}
-  .nav-placeholder {
-    height: 30vw;
-    width: 30vw;
-  }
-}
-@media (min-width: 30em) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003117}}
   .nav-placeholder {
     height: 20vw;
@@ -1144,7 +1130,7 @@ nav[role="navigation"] a.home-link {
 .nav-showing nav[role="navigation"] a:nth-child(6) {
   transform: translate(38vw, 27vh);
 }
-@media (min-width: 30em) {
+@media (min-width: 28em) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003152}}
   .nav-showing nav[role="navigation"] a:nth-child(1) {
     transform: translate(0vw, 0vh);
@@ -1225,7 +1211,7 @@ nav[role="navigation"] a.home-link {
   height: 50vh;
   margin-top: 50vh;
 }
-@media (min-width: 30em) {
+@media (min-width: 28em) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003229}}
   .definition dl {
     float: right;
@@ -1258,7 +1244,7 @@ nav[role="navigation"] a.home-link {
   animation-timing-function: ease-in;
   animation-fill-mode: normal;
 }
-@media (min-width: 30em) {
+@media (min-width: 28em) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003250}}
   .definition dd {
     margin: 50vh 2em 0 0;

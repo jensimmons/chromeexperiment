@@ -46,24 +46,24 @@ dl {
 // ----------------------------------------- Navigation ------------------------------------------
 
 @mixin nav-circle {
-  height: 80vw;
-  width: 80vw;     
   text-indent: -9999px;
   background: rgba(0,0,0,0.8);
   @include border-radius (100px);   
   @include box-shadow (0 0 10px rgba(0, 0, 0, 0.2));
   opacity: 1;
+  height: 40vw;
+  width: 40vw;  
   @media (min-width: 10em) { 
-    height: 40vw;
-    width: 40vw;  
+    height: 33vw;
+    width: 33vw;  
   }  
   @media (min-width: 15em) { 
-    height: 30vw;
-    width: 30vw;  
-  }  
-  @media (min-width: 30em) { 
     height: 20vw;
     width: 20vw;  
+  }  
+  @media (min-width: 28em) { 
+//    height: 20vw;
+//    width: 20vw;  
   }
   @media (min-width: 40em) { 
       height: 15vw;
@@ -148,7 +148,7 @@ nav[role="navigation"] {
       transform: translate(38vw, 27vh);
     }    
     
-    @media (min-width: 30em) { 
+    @media (min-width: 28em) { 
       a:nth-child(1) {
         transform: translate(0vw, 0vh);
       }
@@ -233,7 +233,7 @@ nav[role="navigation"] {
     padding: 1.2em 2em 1.2em 1.1em;
     height: 50vh;
     margin-top: 50vh;
-    @media (min-width: 30em) { 
+    @media (min-width: 28em) { 
       float: right;
       width: 50vw;
       height: 100vh;
@@ -251,7 +251,7 @@ nav[role="navigation"] {
     position: absolute;
     top: 0;
     margin: 3.6em 1.6em 3.6em 1em;
-    @media (min-width: 30em) { 
+    @media (min-width: 28em) { 
       margin: 50vh 2em 0 0;
     }
     @media (min-width: 35em) { 
