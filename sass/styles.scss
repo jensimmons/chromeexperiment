@@ -62,11 +62,11 @@ dl {
     height: 30vw;
     width: 30vw;  
   }  
-  @media (min-width: 25em) { 
+  @media (min-width: 30em) { 
     height: 20vw;
     width: 20vw;  
   }
-  @media (min-width: 35em) { 
+  @media (min-width: 40em) { 
       height: 15vw;
       width: 15vw;
   }
@@ -74,7 +74,7 @@ dl {
       height: 10vw;
       width: 10vw;
   }
-  @media (min-width: 60em) { 
+  @media (min-width: 75em) { 
       height: 8vw;
       width: 8vw;
   }
@@ -124,7 +124,7 @@ nav[role="navigation"] {
   left: 1vw;
   @include nav-circle;
 //  opacity: 0;
-  background: rgba(255,255,255,0.75);
+  background: rgba(255,255,255,0.5);
 }
 
 .nav-collapsed {
@@ -139,26 +139,42 @@ nav[role="navigation"] {
 .nav-showing {
   nav[role="navigation"] {
     a:nth-child(1) {
-      @include transform (translate(10vw, 10vh));
+      @include transform (translate(0vw, 0vh));
     }
     a:nth-child(2) {
-      @include transform (translate(30vw, 10vh));
+      @include transform (translate(31vw, 5vh));
     }
     a:nth-child(3) {
-      @include transform (translate(10vw, 40vh));
+      @include transform (translate(66vw, 0vh));
     }
     a:nth-child(4) {
-      @include transform (translate(20vw, 40vh));
+      @include transform (translate(11vw, 16vh));
     }
     a:nth-child(5) {
-      @include transform (translate(10vw, 60vh));
+      @include transform (translate(55vw, 14vh));
     }
     a:nth-child(6) {
-      @include transform (translate(0vw, 70vh));
-    }
-    
+      @include transform (translate(38vw, 27vh));
+    }    
     @media (min-width: 30em) { 
-
+      a:nth-child(1) {
+        @include transform (translate(0vw, 0vh));
+      }
+      a:nth-child(2) {
+        @include transform (translate(26vw, 5vh));
+      }
+      a:nth-child(3) {
+        @include transform (translate(24vw, 40vh));
+      }
+      a:nth-child(4) {
+        @include transform (translate(12vw, 22vh));
+      }
+      a:nth-child(5) {
+        @include transform (translate(1vw, 45vh));
+      }
+      a:nth-child(6) {
+        @include transform (translate(19vw, 64vh));
+      }
     }  
     
     @media (min-width: 40em) { 
@@ -209,7 +225,7 @@ nav[role="navigation"] {
 .definition {
   @include make-a-page;
   padding: 0;
-  @media (min-width: 25em) { 
+  @media (min-width: 25em) { // redundantly overriding something from above
     padding: 0;
   }
   background: #356019 url('../images/nietnagel-woods.jpg') center center;
@@ -225,7 +241,7 @@ nav[role="navigation"] {
     padding: 1.2em 2em 1.2em 1.1em;
     height: 50vh;
     margin-top: 50vh;
-    @media (min-width: 25em) { 
+    @media (min-width: 30em) { 
       float: right;
       width: 50vw;
       height: 100vh;
@@ -243,7 +259,7 @@ nav[role="navigation"] {
     position: absolute;
     top: 0;
     margin: 3.6em 1.6em 3.6em 1em;
-    @media (min-width: 25em) { 
+    @media (min-width: 30em) { 
       margin: 50vh 2em 0 0;
     }
     @media (min-width: 35em) { 
