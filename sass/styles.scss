@@ -132,41 +132,52 @@ nav[role="navigation"] {
   nav[role="navigation"] {
     a:nth-child(1) {
       transform: translate(0vw, 0vh);
+      -webkit-transform: translate(0, 0);
     }
     a:nth-child(2) {
       transform: translate(31vw, 5vh);
+      -webkit-transform: translate(80px, 60px);
     }
     a:nth-child(3) {
       transform: translate(66vw, 0vh);
+      -webkit-transform: translate(35px, 125px);
     }
     a:nth-child(4) {
       transform: translate(11vw, 16vh);
+      -webkit-transform: translate(150px, 100px);
     }
     a:nth-child(5) {
       transform: translate(55vw, 14vh);
+      -webkit-transform: translate(210px, 40px);
     }
     a:nth-child(6) {
       transform: translate(38vw, 27vh);
+      -webkit-transform: translate(240px, 115px);
     }    
     
     @media (min-width: 30em) { 
       a:nth-child(1) {
-        transform: translate(0vw, 0vh);
+        transform: translate(0, 0);
       }
       a:nth-child(2) {
         transform: translate(26vw, 5vh);
+      -webkit-transform: translate(100px, 100px);
       }
       a:nth-child(3) {
         transform: translate(24vw, 40vh);
+      -webkit-transform: translate(50px, 150px);
       }
       a:nth-child(4) {
         transform: translate(12vw, 22vh);
+      -webkit-transform: translate(150px, 100px);
       }
       a:nth-child(5) {
         transform: translate(1vw, 45vh);
+      -webkit-transform: translate(220px, 40px);
       }
       a:nth-child(6) {
         transform: translate(15vw, 65vh);
+      -webkit-transform: translate(200px, 180px);
       }
     }  
     
