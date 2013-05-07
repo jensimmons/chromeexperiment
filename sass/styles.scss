@@ -86,14 +86,14 @@ dl {
 
 nav[role="navigation"] {
   position: relative;
-  @include transition (transform 1s);
+  z-index: 100;
   a {
     display: block;
     position: absolute;
     top: 1vw;
     left: 1vw;
     @include nav-circle;
-    @include transition (transform 1s);
+    @include transition (transform 500ms ease-out);
   }
   a.breathing-link {
     background: url('../images/airbubbles.jpg') center center no-repeat;    
@@ -116,24 +116,16 @@ nav[role="navigation"] {
 }
 
 .nav-placeholder {
-  @include transition (transform 1s);
   display: block;
-  z-index: 1;
+  z-index: 101;
   position: absolute;
   top: 1vw;
   left: 1vw;
   @include nav-circle;
-//  opacity: 0;
-  background: rgba(255,255,255,0.5);
+  background: rgba(255,255,255,0.2);
 }
-
-.nav-collapsed {
-  .nav-placeholder {
-//    opacity: 1;
-  }
-  nav[role="navigation"] {
-//    opacity: 0;
-  }
+.nav-showing .nav-placeholder {
+  z-index: 99;
 }
 
 .nav-showing {
@@ -156,6 +148,7 @@ nav[role="navigation"] {
     a:nth-child(6) {
       @include transform (translate(38vw, 27vh));
     }    
+    
     @media (min-width: 30em) { 
       a:nth-child(1) {
         @include transform (translate(0vw, 0vh));
@@ -173,7 +166,7 @@ nav[role="navigation"] {
         @include transform (translate(1vw, 45vh));
       }
       a:nth-child(6) {
-        @include transform (translate(19vw, 64vh));
+        @include transform (translate(15vw, 65vh));
       }
     }  
     
@@ -199,7 +192,7 @@ nav[role="navigation"] {
 
 
 
-// ----------------------------------------- Make A Page -----------------------------------------
+// ----------------------------------------- Universal Definitions -----------------------------------------
 
 @mixin make-a-page {
   display: block;
@@ -445,12 +438,11 @@ nav[role="navigation"] {
 .mediating-on {
   .mediating {
     @include make-a-page;
-    position: relative;
     background: #d8d8d8 url('../images/mountainlake.jpg') center center;
     color: #fff;
     @include text-shadow (0px 0px 8px rgba(0, 0, 0, 0.6));
     text-align: center;
-    padding-top: 5vh;
+    padding-top: 5vh; 
     @media (min-width: 20em) { 
       padding-top: 10vh;
     }
@@ -496,7 +488,7 @@ nav[role="navigation"] {
     p:nth-child(5) { 
       -webkit-animation-delay: 60s; 
       animation-delay: 60s; 
-    }
+    } 
   }
 }
 
