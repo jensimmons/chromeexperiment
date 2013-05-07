@@ -1476,20 +1476,20 @@ header.home h1 {
   z-index: 100;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_mixins\.scss}line{font-family:\0000367}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_mixins\.scss}line{font-family:\0000379}}
 .timer, .timer * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_mixins\.scss}line{font-family:\0000368}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_mixins\.scss}line{font-family:\0000380}}
 .timer {
   width: 50px;
   height: 50px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_mixins\.scss}line{font-family:\0000372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_mixins\.scss}line{font-family:\0000384}}
 .timer .pie {
   width: 50%;
   height: 100%;
@@ -1499,7 +1499,7 @@ header.home h1 {
   border: 0px solid rgba(0,0,0,0.5);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_mixins\.scss}line{font-family:\0000380}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_mixins\.scss}line{font-family:\0000392}}
 .timer .spinner {
   border-radius: 100% 0 0 100% / 50% 0 0 50%;
   z-index: 200;
@@ -1507,14 +1507,14 @@ header.home h1 {
   animation: rota 15s linear infinite;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_mixins\.scss}line{font-family:\0000388}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_mixins\.scss}line{font-family:\00003100}}
 .timer:hover .spinner,
 .timer:hover .filler,
 .timer:hover .mask {
   animation-play-state: running;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_mixins\.scss}line{font-family:\0000391}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_mixins\.scss}line{font-family:\00003103}}
 .timer .filler {
   border-radius: 0 100% 100% 0 / 0 50% 50% 0;
   left: 50%;
@@ -1524,7 +1524,7 @@ header.home h1 {
   border-left: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_mixins\.scss}line{font-family:\0000399}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_mixins\.scss}line{font-family:\00003111}}
 .timer .mask {
   width: 50%;
   height: 100%;
@@ -1536,24 +1536,24 @@ header.home h1 {
 }
 
 @keyframes rota {
-  /* line 109, ../sass/_mixins.scss */
+  /* line 121, ../sass/_mixins.scss */
   0% {
     transform: rotate(0deg);
   }
 
-  /* line 110, ../sass/_mixins.scss */
+  /* line 122, ../sass/_mixins.scss */
   100% {
     transform: rotate(360deg);
   }
 }
 
 @keyframes opa {
-  /* line 113, ../sass/_mixins.scss */
+  /* line 125, ../sass/_mixins.scss */
   0% {
     opacity: 1;
   }
 
-  /* line 114, ../sass/_mixins.scss */
+  /* line 126, ../sass/_mixins.scss */
   50%, 100% {
     opacity: 0;
   }

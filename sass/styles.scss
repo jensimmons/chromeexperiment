@@ -43,7 +43,6 @@ dl {
   display: none;
 }
 
-
 // ----------------------------------------- Navigation ------------------------------------------
 
 @mixin nav-circle {
@@ -93,7 +92,7 @@ nav[role="navigation"] {
     top: 1vw;
     left: 1vw;
     @include nav-circle;
-    @include transition (transform 500ms ease-out);
+    transition: transform 500ms ease-out;
   }
   a.breathing-link {
     background: url('../images/airbubbles.jpg') center center no-repeat;    
@@ -131,42 +130,42 @@ nav[role="navigation"] {
 .nav-showing {
   nav[role="navigation"] {
     a:nth-child(1) {
-      @include transform (translate(0vw, 0vh));
+      transform: translate(0vw, 0vh);
     }
     a:nth-child(2) {
-      @include transform (translate(31vw, 5vh));
+      transform: translate(31vw, 5vh);
     }
     a:nth-child(3) {
-      @include transform (translate(66vw, 0vh));
+      transform: translate(66vw, 0vh);
     }
     a:nth-child(4) {
-      @include transform (translate(11vw, 16vh));
+      transform: translate(11vw, 16vh);
     }
     a:nth-child(5) {
-      @include transform (translate(55vw, 14vh));
+      transform: translate(55vw, 14vh);
     }
     a:nth-child(6) {
-      @include transform (translate(38vw, 27vh));
+      transform: translate(38vw, 27vh);
     }    
     
     @media (min-width: 30em) { 
       a:nth-child(1) {
-        @include transform (translate(0vw, 0vh));
+        transform: translate(0vw, 0vh);
       }
       a:nth-child(2) {
-        @include transform (translate(26vw, 5vh));
+        transform: translate(26vw, 5vh);
       }
       a:nth-child(3) {
-        @include transform (translate(24vw, 40vh));
+        transform: translate(24vw, 40vh);
       }
       a:nth-child(4) {
-        @include transform (translate(12vw, 22vh));
+        transform: translate(12vw, 22vh);
       }
       a:nth-child(5) {
-        @include transform (translate(1vw, 45vh));
+        transform: translate(1vw, 45vh);
       }
       a:nth-child(6) {
-        @include transform (translate(15vw, 65vh));
+        transform: translate(15vw, 65vh);
       }
     }  
     
@@ -451,10 +450,6 @@ nav[role="navigation"] {
     }
     p {
       width: 89vw;
-      font-size: 300%;
-      font-family: $amatic;
-      word-spacing: 0.12em;
-      line-height: 1.6em;
       text-indent: 0;
       background: rgba(0, 0, 0, 0.4);
       display: block;
