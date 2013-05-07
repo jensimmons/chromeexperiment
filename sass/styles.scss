@@ -39,7 +39,8 @@ dl {
 .hiding, 
 .disconnecting, 
 .looking, 
-.feeling {
+.feeling,
+.definition {
   display: none;
 }
 
@@ -61,7 +62,7 @@ dl {
     height: 20vw;
     width: 20vw;  
   }  
-  @media (min-width: 28em) { 
+  @media (min-width: 30em) { 
 //    height: 20vw;
 //    width: 20vw;  
   }
@@ -148,7 +149,7 @@ nav[role="navigation"] {
       transform: translate(38vw, 27vh);
     }    
     
-    @media (min-width: 28em) { 
+    @media (min-width: 30em) { 
       a:nth-child(1) {
         transform: translate(0vw, 0vh);
       }
@@ -202,18 +203,12 @@ nav[role="navigation"] {
   width: 100%;
   min-height: 100vh;
   @include background-size (cover);
-  padding: 0.5em;
-  @media (min-width: 25em) { 
-    padding: 1em 2em;
-  }      
-  @media (min-width: 40em) { 
-    padding: 4em 8em;
-  }      
 }
 
 
 // ----------------------------------------- Home ------------------------------------------------
 
+.start {
 .definition {
   @include make-a-page;
   padding: 0;
@@ -233,7 +228,7 @@ nav[role="navigation"] {
     padding: 1.2em 2em 1.2em 1.1em;
     height: 50vh;
     margin-top: 50vh;
-    @media (min-width: 28em) { 
+    @media (min-width: 30em) { 
       float: right;
       width: 50vw;
       height: 100vh;
@@ -251,7 +246,7 @@ nav[role="navigation"] {
     position: absolute;
     top: 0;
     margin: 3.6em 1.6em 3.6em 1em;
-    @media (min-width: 28em) { 
+    @media (min-width: 30em) { 
       margin: 50vh 2em 0 0;
     }
     @media (min-width: 35em) { 
@@ -321,13 +316,20 @@ nav[role="navigation"] {
     }
   }
 }  
-
+}
 
 // ----------------------------------------- Breathing -------------------------------------------
 
-/*.breathing-on {
+.breathing-on {
   .breathing {
     @include make-a-page;
+    padding: 0.5em;
+    @media (min-width: 25em) { 
+      padding: 1em 2em;
+    }      
+    @media (min-width: 40em) { 
+      padding: 4em 8em;
+    }      
     background: #07a1d7 url('../images/airbubbles.jpg') center center no-repeat;
     @include background-size (cover);
     p {
@@ -375,13 +377,20 @@ nav[role="navigation"] {
     }
   }
 }
-*/
+
 
 // ----------------------------------------- Being Present ---------------------------------------
 
 .beingpresent-on {
   .beingpresent {
     @include make-a-page;
+    padding: 0.5em;
+    @media (min-width: 25em) { 
+      padding: 1em 2em;
+    }      
+    @media (min-width: 40em) { 
+      padding: 4em 8em;
+    }      
     background: #d3c9b9 url('../images/dogs.jpg') center center no-repeat;
     @include background-size (cover);
     
@@ -437,6 +446,13 @@ nav[role="navigation"] {
 .mediating-on {
   .mediating {
     @include make-a-page;
+    padding: 0.5em;
+    @media (min-width: 25em) { 
+      padding: 1em 2em;
+    }      
+    @media (min-width: 40em) { 
+      padding: 4em 8em;
+    }      
     background: #d8d8d8 url('../images/mountainlake.jpg') center center;
     color: #fff;
     @include text-shadow (0px 0px 8px rgba(0, 0, 0, 0.6));
@@ -504,6 +520,7 @@ nav[role="navigation"] {
 
 .disconnecting-on {
   .disconnecting {
+    padding: 0 0 0 33vw;
     @include make-a-page;
     background: #edebff url('../images/snow.jpg') center center no-repeat;
     @include background-size (cover);
@@ -521,12 +538,14 @@ nav[role="navigation"] {
 .looking-on {
   .looking {
     @include make-a-page;
+    padding: 0 0 0 33vw;
     background: #d8d8d8 url('../images/glass.jpg') center center;
     @include background-size (cover);
     div {
       background: rgba(0,0,0,0.4);
       padding: 2em;
       color: #fff;
+      height: 100vh;
     }
   }
 }
