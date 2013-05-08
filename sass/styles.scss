@@ -435,18 +435,81 @@ nav[role="navigation"] {
     @include background-image (radial-gradient(ellipse at 70% 65%, #2f2e2b 0%, #22201b 50%, #000 100%));
     display: block;
     padding: 0;
+    h1 {
+      position: absolute;      
+      top: 1vh;
+      left: 2vw;
+      font-size: 10vw;
+    }
+    p {
+      text-indent: 0;
+      padding: 1em;
+      font-size: 5vw;
+      line-height: 6vw;
+    }
     figure {
       height: 100vh;
       width: 100vw;
     }
     .card {
       float: left;
-      width: 25vw;
-      height: 33.33333vh;
       @include perspective(600px);
       position: relative;
-
+      height: 33.33333vh;
+      width: 50vw;
     }
+    .first,
+    .fourth {
+      display: none;
+    }
+    @media (min-width: 22em) { 
+      .card {
+        width: 33.33333vw;
+      }
+      .first {
+        display: block;
+      }
+      h1 {
+        top: 1vh;
+        left: 2vw;
+        font-size: 7.5vw;
+      }
+      p {
+        padding: 2vh 3vw;
+        font-size: 4vw;
+        line-height: 5vw;
+      }
+    }      
+    @media (min-width: 35em) { 
+      .card {
+        width: 25vw;
+      }
+      .fourth {
+        display: block;
+      }
+      h1 {
+        top: 1vh;
+        left: 2vw;
+        font-size: 6vw;
+      }
+      p {
+        padding: 1em;
+        font-size: 2vw;
+        line-height: 3vw;
+      }
+    }      
+    @media (min-width: 40em) { 
+      h1 {
+        top: 1vh;
+        left: 2vw;
+        font-size: 5vw;
+      }
+      p {
+        padding: 1em;
+        font-size: 2vw;
+        line-height: 2.6vw;
+      }
+    }      
     .front {
       position: absolute;
       display: block;
@@ -460,17 +523,6 @@ nav[role="navigation"] {
       @include transform (rotateY(0deg));
       @include transform-style (preserve-3d);
       @include transition (all .4s ease-in-out);
-    }
-    h1 {
-      position: absolute;      
-      top: 1vh;
-      left: 2vw;
-      font-size: 5vw;
-    }
-    p {
-      text-indent: 0;
-      padding: 1em;
-      font-size: 2vw;
     }
     .back {
       position: absolute;
@@ -487,7 +539,6 @@ nav[role="navigation"] {
     	        backface-visibility: hidden;  
       @include transition (all .4s ease-in-out);
     }
-
     .flip {
       .front {
         @include transform (rotateY(-180deg));
