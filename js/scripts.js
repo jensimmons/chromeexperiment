@@ -23,11 +23,6 @@ var deparam = function (querystring) {
     State = History.getState();
     var stateHash = deparam(State.hash);
 
-    if (stateHash['state'] != undefined) { // we have an initial state
-      var cssClass = stateHash['state'] + '-on nav-collapsed';
-      $('body').removeClass().addClass(cssClass);
-    }
-
     // Bind to State Change
     History.Adapter.bind(window,'statechange',function(){
     // Log the State
@@ -111,6 +106,11 @@ var deparam = function (querystring) {
 		},function(){
 			$(this).removeClass('flip');
 		});			
+
+    if (stateHash['state'] != undefined) { // we have an initial state
+      History.replaceState({'class': stateHash['state']}, null, State.hash);
+      $(window).trigger('statechange');
+    }
 
   });
 })(jQuery);
