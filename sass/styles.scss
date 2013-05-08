@@ -40,7 +40,7 @@ dl {
 .disconnecting, 
 .looking, 
 .feeling,
-.definition {
+.animation {
   display: none;
 }
 
@@ -100,21 +100,21 @@ nav[role="navigation"] {
     transition: transform 300ms ease-out;
   }
   a.breathing-link {
-    background: url('../images/airbubbles.jpg') center center no-repeat;    
+    background: url('../images/square/nietnagel-trees.jpg') center center no-repeat;    
   }
   a.beingpresent-link {
-    background: url('../images/square/dogs.jpg') center center no-repeat;
+    background: url('../images/square/nietnagel-marsh.jpg') center center no-repeat;
   }
   a.mediating-link {
-    background: url('../images/square/mountainlake.jpg') center center no-repeat;
+    background: url('../images/square/nietnagel-snow.jpg') center center no-repeat;
   }
   a.disconnecting-link {
-    background: url('../images/square/snow.jpg') center center no-repeat;
+    background: url('../images/square/nietnagel-mountain.jpg') center center no-repeat;
   }
   a.looking-link {
-    background: url('../images/square/glass.jpg') center center no-repeat;
+    background: url('../images/square/nietnagel-fall.jpg') center center no-repeat;
   }
-  a.home-link {
+  a.animation-link {
     background: url('../images/square/nietnagel-woods.jpg') center center no-repeat;    
   }
 }
@@ -201,7 +201,7 @@ nav[role="navigation"] {
 .mediating-on .mediating-link,
 .disconnecting-on .disconnecting-link,
 .looking-on .looking-link,
-.start .home-link {
+.start .animation-link {
 //  display: none;
 }
 
@@ -224,7 +224,7 @@ nav[role="navigation"] {
 // ----------------------------------------- Home ------------------------------------------------
 
 .start {
-.definition {
+.animation {
   @include make-a-page;
   padding: 0;
   @media (min-width: 25em) { // redundantly overriding something from above
@@ -345,7 +345,7 @@ nav[role="navigation"] {
     @media (min-width: 40em) { 
       padding: 4em 8em;
     }      
-    background: #07a1d7 url('../images/airbubbles.jpg') center center no-repeat;
+    background: #07a1d7 url('../images/nietnagel-trees.jpg') center center no-repeat;
     @include background-size (cover);
     p {
       background: rgba(0, 4, 6, 0.55);
@@ -406,16 +406,16 @@ nav[role="navigation"] {
     @media (min-width: 40em) { 
       padding: 4em 8em;
     }      
-    background: #d3c9b9 url('../images/dogs.jpg') center center no-repeat;
-    @include background-size (cover);
+    background: #d3c9b9 url('../images/nietnagel-marsh.jpg') center center no-repeat;
+    background: url('../images/nietnagel-mountain.jpg') no-repeat fixed center center / cover #edebff;
     
     @media (min-width: 30em) { 
       .card {
-        float: left;
+        float: right;
         width: 50%;
       }
       .text {
-        float: right;
+        float: left;
         width: 50%;
       }
     }
@@ -468,7 +468,7 @@ nav[role="navigation"] {
     @media (min-width: 40em) { 
       padding: 4em 8em;
     }      
-    background: #d8d8d8 url('../images/mountainlake.jpg') center center;
+    background: url('../images/nietnagel-snow.jpg') no-repeat fixed center center / cover #d8d8d8;
     color: #fff;
     @include text-shadow (0px 0px 8px rgba(0, 0, 0, 0.6));
     text-align: center;
@@ -518,32 +518,15 @@ nav[role="navigation"] {
   }
 }
 
-// Timer
-// Pure CSS Pie Time by Hugo Giraudel http://codepen.io/HugoGiraudel/details/BHEwo
-.timer {
-  position: relative;
-  margin: 20em auto 0;
-  background: #d0d0d0;
-  z-index: 100;
-}  
-@include timer('.timer', 15, 50px, #999, '0px solid rgba(0,0,0,0.5)');
-
-
-
 
 // ----------------------------------------- Disconnecting ---------------------------------------
 
 .disconnecting-on {
   .disconnecting {
-    padding: 0 0 0 33vw;
+    padding: 0 2em 0 33vw;
     @include make-a-page;
-    background: #edebff url('../images/snow.jpg') center center no-repeat;
-    @include background-size (cover);
-    .wrapper {
-      padding: 1em 2em;
-      background: rgba(255,255,255,0.8);
-      @include box-shadow (0 0 10px rgba(0, 0, 0, 0.2));
-    }
+    background: url('../images/nietnagel-mountain.jpg') no-repeat fixed center center / cover #edebff;
+    color: #fff;
   }
 }
 
@@ -554,14 +537,7 @@ nav[role="navigation"] {
   .looking {
     @include make-a-page;
     padding: 0 0 0 33vw;
-    background: #d8d8d8 url('../images/glass.jpg') center center;
-    @include background-size (cover);
-    div {
-      background: rgba(0,0,0,0.4);
-      padding: 2em;
-      color: #fff;
-      height: 100vh;
-    }
+    background: url('../images/nietnagel-fall.jpg') no-repeat center center / cover #e39102;
   }
 }
 
