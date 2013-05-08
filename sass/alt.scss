@@ -421,13 +421,13 @@ header.home { // This will only work when the .start class is removed, because i
 
 // Timer
 // Pure CSS Pie Time by Hugo Giraudel http://codepen.io/HugoGiraudel/details/BHEwo
-.timer {
-  position: relative;
-  margin: 20em auto 0;
-  background: #d0d0d0;
-  z-index: 100;
-}  
-@include timer('.timer', 15, 50px, #999, '0px solid rgba(0,0,0,0.5)');
+//.timer {
+//  position: relative;
+//  margin: 20em auto 0;
+//  background: #d0d0d0;
+//  z-index: 100;
+//}  
+//@include timer('.timer', 15, 50px, #999, '0px solid rgba(0,0,0,0.5)');
 
 
 
