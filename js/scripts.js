@@ -14,6 +14,7 @@ var deparam = function (querystring) {
   return params;
 };//--  fn  deparam
 
+
 (function ($) {
   $(document).ready(function() {
 
@@ -31,20 +32,20 @@ var deparam = function (querystring) {
       $('body').removeClass().addClass(cssClass);
     });
 
-// When the word "breathe" is clicked, show the navigation
+    // When the word "breathe" is clicked, show the navigation
     $('.stepone').on('click', function (evt) {
       evt.preventDefault();
       evt.stopPropagation();
       $(this).parents('body').removeClass('nav-collapsed').addClass('nav-showing');
     });
 
-// When the small circle is clicked, show the navigation
+    // When the small circle is clicked, show the navigation
     $('.nav-placeholder').on('click', function (evt) {
       evt.preventDefault();
       evt.stopPropagation();
       $(this).parents('body').removeClass('nav-collapsed').addClass('nav-showing');
     });
- 
+
     $('nav a.breathing-link').on('click', function (evt) {
       evt.preventDefault();
       evt.stopPropagation();
@@ -74,13 +75,13 @@ var deparam = function (querystring) {
       evt.stopPropagation();
       History.pushState({'class':'hiding'}, null, "?state=hiding");
     });
-    
+
     $('nav a.disconnecting-link').on('click', function (evt) {
       evt.preventDefault();
       evt.stopPropagation();
       History.pushState({'class':'disconnecting'}, null, "?state=disconnecting");
     });
-    
+
     $('nav a.looking-link').on('click', function (evt) {
       evt.preventDefault();
       evt.stopPropagation();
@@ -99,18 +100,18 @@ var deparam = function (querystring) {
       History.pushState({'class':'animating'}, null, "?state=animating");
     });
 
-
-// Switch classes to trigger flip of content
-		$('.card').hover(function(){
-			$(this).addClass('flip');
-		},function(){
-			$(this).removeClass('flip');
-		});			
-
     if (stateHash['state'] != undefined) { // we have an initial state
       History.replaceState({'class': stateHash['state']}, null, State.hash);
       $(window).trigger('statechange');
     }
+
+// Switch classes to trigger flip of content
+
+		$('.card').hover(function(){
+			$(this).addClass('flip');
+		},function(){
+			$(this).removeClass('flip');
+		});
 
   });
 })(jQuery);
