@@ -271,16 +271,28 @@ nav[role="navigation"] {
       }      
     }
     dt {
-      font-size: 2em;
+      font-size: 10vw;
+      line-height: 0.7em;
       small {
-        font-size: 0.8rem;
-        margin-left: 2em;
+        display: block;
+        font-size: 33%;
+        margin-left: 1em;
+      }
+      @media (min-width: 30em) { 
+        font-size: 10vw;
+        line-height: 0.7em;
+        margin-top: 7vh;
+        small {
+          display: block;
+          font-size: 33%;
+          margin-left: 1em;
+        }      
       }
     }
     dd {
       position: absolute;
       top: 0;
-      margin: 3.6em 1.6em 3.6em 1em;
+      margin: 15vh 1.6em 3.6em 0.8em;
       @media (min-width: 30em) { 
         margin: 50vh 2em 0 0;
       }
