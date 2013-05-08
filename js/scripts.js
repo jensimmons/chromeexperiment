@@ -1,3 +1,19 @@
+var deparam = function (querystring) {
+  // remove any preceding url and split
+  querystring = querystring.substring(querystring.indexOf('?')+1).split('&');
+  var params = {}, pair, d = decodeURIComponent;
+  // march and parse
+  for (var i = querystring.length - 1; i >= 0; i--) {
+    pair = querystring[i].split('=');
+    if (pair.length > 1) {
+      pair[1] = pair[1].replace('/',''); // please, no '/' in state names
+    }
+    params[d(pair[0])] = d(pair[1]);
+  }
+
+  return params;
+};//--  fn  deparam
+
 (function ($) {
   $(document).ready(function() {
 
@@ -5,13 +21,18 @@
     var
     History = window.History,
     State = History.getState();
+    var stateHash = deparam(State.hash);
+
+    if (stateHash['state'] != undefined) { // we have an initial state
+      var cssClass = stateHash['state'] + '-on nav-collapsed';
+      $('body').removeClass().addClass(cssClass);
+    }
 
     // Bind to State Change
     History.Adapter.bind(window,'statechange',function(){
     // Log the State
       var State = History.getState();
       var cssClass = State.data['class'] + '-on nav-collapsed';
-      // History.log('statechange:', State.data, State.title, State.url);
       $('body').removeClass().addClass(cssClass);
     });
 
