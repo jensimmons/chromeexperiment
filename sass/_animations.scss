@@ -15,6 +15,75 @@
     100% { opacity: 0; }
 }
 
+//http://codepen.io/gartner90/pen/iuEcK 
+
+// <div class="humo"></div>
+// <div class="humo2"></div>
+// <div class="humo3"></div>
+// <div class="humo4"></div>
+
+.fog {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  background:url('../images/fog.png') no-repeat;
+  margin:173px 152px;
+  background-size:100%;
+  animation: blowingfog 7s infinite;
+}
+.fog2 {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  background:url('../images/fog.png') no-repeat;
+  margin:173px 152px;
+  background-size:100%;
+  animation: blowingfog2 3s infinite;
+}
+.fog3 {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  background:url('../images/fog.png') no-repeat;
+  margin:173px 152px;
+  background-size:100%;
+  animation: blowingfog 5s infinite;
+}
+.fog4 {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  background:url('../images/fog.png') no-repeat;
+  margin:173px 152px;
+  background-size:100%;
+  animation: blowingfog 2s infinite;
+}
+@keyframes blowingfog {
+  0% {
+    margin:173px 152px; width: 32px; height: 32px;
+    transform: rotate(0deg);
+  }
+  100% {
+    margin:-80px 227px; width: 200px; height: 200px;
+    transform: rotate(120deg);opacity: 0.0;
+  }
+}
+@keyframes blowingfog2 {
+  0% {
+    margin:173px 152px; width: 20px; height: 20px;
+    transform: rotate(0deg);
+  }
+  100% {
+    margin:-200px 157px; width: 300px; height: 300px;
+    transform: rotate(-90deg);opacity: 0.0;
+  }
+}
+ 
+ 
+ 
+ // ---------------------------------------------------------------
+
+
 @keyframes pulse { 
   0%    {transform: scale(1)}
   40%   {transform: scale(1.08)}
