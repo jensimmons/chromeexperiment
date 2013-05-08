@@ -288,6 +288,10 @@ nav[role="navigation"] {
         }      
       }
     }
+    
+    $anim_speed: 1.5; // in seconds
+    $total_children: 11; // total animated children
+    $anim_duration: #{$anim_speed*($total_children + 1)}; // number of anim'd children + 1
     dd {
       position: absolute;
       top: 0;
@@ -301,65 +305,23 @@ nav[role="navigation"] {
       }
       opacity: 0;
       -webkit-animation-name: crossfade;
-      -webkit-animation-duration: 66s;
+      -webkit-animation-duration: #{$anim_duration}s;
       -webkit-animation-timing-function: ease-in;
+      -webkit-animation-iteration-count: infinite;
       -webkit-animation-fill-mode: normal;
       animation-name: crossfade;
-      animation-duration: 66s;
+      animation-duration: #{$anim_duration}s;
       animation-timing-function: ease-in;
+      animation-iteration-count: infinite;
       animation-fill-mode: normal;
-      &:nth-child(2) {
-        -webkit-animation-delay: 0; 
-        animation-delay: 0; 
+
+      @for $i from 0 through ($total_children - 1) {
+        &:nth-child(#{$i+2}) {
+          -webkit-animation-delay: (#{$i*$anim_speed}s);
+          animation-delay: (#{$i*$anim_speed}s);
+        }
       }
-      &:nth-child(3) { 
-        -webkit-animation-delay: 6s; 
-        animation-delay: 6s; 
-      }
-      &:nth-child(4) { 
-        -webkit-animation-delay: 12s; 
-        animation-delay: 12s; 
-      }
-      &:nth-child(5) { 
-        -webkit-animation-delay: 18s; 
-        animation-delay: 18s; 
-      }
-      &:nth-child(6) { 
-        -webkit-animation-delay: 24s; 
-        animation-delay: 24s; 
-      }
-      &:nth-child(7) {
-        -webkit-animation-delay: 30s; 
-        animation-delay: 30s; 
-      }
-      &:nth-child(8) { 
-        -webkit-animation-delay: 36s; 
-        animation-delay: 36s; 
-      }
-      &:nth-child(9) { 
-        -webkit-animation-delay: 42s; 
-        animation-delay: 42s; 
-      }
-      &:nth-child(10) { 
-        -webkit-animation-delay: 48s; 
-        animation-delay: 48s; 
-      }
-      &:nth-child(11) { 
-        -webkit-animation-delay: 54s; 
-        animation-delay: 54s; 
-      }
-      &:nth-child(12) { 
-        -webkit-animation-delay: 60s; 
-        animation-delay: 60s; 
-      }
-      &:nth-child(13) { 
-        -webkit-animation-delay: 33s; 
-        animation-delay: 33s; 
-      }
-      &:nth-child(14) { 
-        -webkit-animation-delay: 36s; 
-        animation-delay: 36s; 
-      }
+
     }
   }  
 }
