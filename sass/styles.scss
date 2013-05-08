@@ -406,9 +406,7 @@ nav[role="navigation"] {
     @media (min-width: 40em) { 
       padding: 4em 8em;
     }      
-    background: #d3c9b9 url('../images/nietnagel-marsh.jpg') center center no-repeat;
-    background: url('../images/nietnagel-mountain.jpg') no-repeat fixed center center / cover #edebff;
-    
+    background: url('../images/nietnagel-marsh.jpg') no-repeat fixed center center / cover #edebff;    
     @media (min-width: 30em) { 
       .card {
         float: right;
