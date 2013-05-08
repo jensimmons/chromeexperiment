@@ -45,7 +45,7 @@ Usually I use Sass and Compass to handle prefix chaos, and would never imagine a
 
 History.js
 http://browserstate.github.io/history.js/demo/
-This little library allows one HTML file to have internal URLs, so you can point to a specific state inside the experience (sedning a link to a friend). You can also click the back button in the browser and have it work. 
+This little library allows one HTML file to have internal URLs, so you can point to a specific state inside the experience (sending a link to a friend). You can also click the back button in the browser and have it work. 
 
 Bits of HTML5 Boilerplate, http://html5boilerplate.com
 Bits of 320 and Up, http://stuffandnonsense.co.uk/projects/320andup 
@@ -56,10 +56,11 @@ http://necolas.github.com/normalize.css
 A clean and simple reset. Only contains the bare minimum of what's needed.
 
 jQuery, http://jquery.com
+Javascript made easy.
+
 Modernizr, http://modernizr.com
 Selectivizr, http://selectivizr.com
-At the moment I'm not using Modernizer and Selectvizr, because they are needed for this project. But I might change my mind as I add backwards compatibiliy. I am using jQuery.
-
+At the moment I'm not using Modernizer and Selectvizr, but I might soon. They are good tools for helping with backwards compatibility. 
 
 
 /* INSPIRATION */  
