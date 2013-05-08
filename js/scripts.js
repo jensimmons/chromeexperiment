@@ -1,6 +1,10 @@
 (function ($) {
   $(document).ready(function() {
 
+$.History.bind(function(state){
+    $.History.go(state);
+    });
+
 // When the word "breathe" is clicked, show the navigation
     $('.stepone').on('click', function (evt) {
       evt.preventDefault();
@@ -14,7 +18,7 @@
       evt.stopPropagation();
       $(this).parents('body').removeClass('nav-collapsed').addClass('nav-showing');
     });
-
+ 
 // Bind a handler for state: breathing
     $.History.bind('/breathing',function(state){
       $('body').removeClass().addClass('breathing-on nav-collapsed');
