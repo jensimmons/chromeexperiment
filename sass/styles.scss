@@ -581,16 +581,16 @@ nav[role="navigation"] {
     p {
       width: 89vw;
       text-indent: 0;
-      background: rgba(0, 0, 0, 0.4);
       display: block;
       position: absolute;
-      top: 10vw;
+      top: 70vh;
+      text-wrap: balance;
       @media (min-width: 40em) { 
         width: 75%;
       }
       opacity: 0;
-      -webkit-animation: comeandgo 75s linear infinite 0s;
-      animation: comeandgo 75s linear infinite 0s;
+      -webkit-animation: comeandgo 50s linear infinite 0s;
+      animation: comeandgo 50s linear infinite 0s;
       z-index: 100;
     } 
     p:nth-child(1) {
@@ -599,19 +599,19 @@ nav[role="navigation"] {
       animation-delay: 0; 
     }
     p:nth-child(2) { 
-      -webkit-animation-delay: 15s; 
+      -webkit-animation-delay: 10s; 
       animation-delay: 15s; 
     }
     p:nth-child(3) { 
-      -webkit-animation-delay: 30s; 
+      -webkit-animation-delay: 20s; 
       animation-delay: 30s; 
     }
     p:nth-child(4) { 
-      -webkit-animation-delay: 45s; 
+      -webkit-animation-delay: 30s; 
       animation-delay: 45s; 
     }
     p:nth-child(5) { 
-      -webkit-animation-delay: 60s; 
+      -webkit-animation-delay: 40s; 
       animation-delay: 60s; 
     } 
   }

@@ -1786,13 +1786,13 @@ nav[role="navigation"] a.animating-link {
 .meditating-on .meditating p {
   width: 89vw;
   text-indent: 0;
-  background: rgba(0, 0, 0, 0.4);
   display: block;
   position: absolute;
-  top: 10vw;
+  top: 70vh;
+  text-wrap: balance;
   opacity: 0;
-  -webkit-animation: comeandgo 75s linear infinite 0s;
-  animation: comeandgo 75s linear infinite 0s;
+  -webkit-animation: comeandgo 50s linear infinite 0s;
+  animation: comeandgo 50s linear infinite 0s;
   z-index: 100;
 }
 @media (min-width: 40em) {
@@ -1809,22 +1809,22 @@ nav[role="navigation"] a.animating-link {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003601}}
 .meditating-on .meditating p:nth-child(2) {
-  -webkit-animation-delay: 15s;
+  -webkit-animation-delay: 10s;
   animation-delay: 15s;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003605}}
 .meditating-on .meditating p:nth-child(3) {
-  -webkit-animation-delay: 30s;
+  -webkit-animation-delay: 20s;
   animation-delay: 30s;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003609}}
 .meditating-on .meditating p:nth-child(4) {
-  -webkit-animation-delay: 45s;
+  -webkit-animation-delay: 30s;
   animation-delay: 45s;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003613}}
 .meditating-on .meditating p:nth-child(5) {
-  -webkit-animation-delay: 60s;
+  -webkit-animation-delay: 40s;
   animation-delay: 60s;
 }
 
