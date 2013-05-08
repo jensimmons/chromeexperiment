@@ -432,6 +432,7 @@ nav[role="navigation"] {
   .beingpresent {
     @include make-a-page;
     background: #2f2e2b;
+    @include background-image (radial-gradient(ellipse at 70% 65%, #2f2e2b 0%, #22201b 50%, #000 100%));
     display: block;
     padding: 0;
     figure {
