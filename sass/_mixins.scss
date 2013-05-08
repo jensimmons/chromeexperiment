@@ -31,7 +31,6 @@
 
 @mixin element-focusable {
   @include element-invisible;
-
   &:active,
   &:focus {
     @include element-invisible-off;
