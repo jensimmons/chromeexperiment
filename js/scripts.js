@@ -1,9 +1,19 @@
 (function ($) {
   $(document).ready(function() {
 
-//$.History.bind(function(state){
-//    $.History.go(state);
-//    });
+    // Establish Variables
+    var
+    History = window.History,
+    State = History.getState();
+
+    // Bind to State Change
+    History.Adapter.bind(window,'statechange',function(){
+    // Log the State
+      var State = History.getState();
+      var cssClass = State.data['class'] + '-on nav-collapsed';
+      // History.log('statechange:', State.data, State.title, State.url);
+      $('body').removeClass().addClass(cssClass);
+    });
 
 // When the word "breathe" is clicked, show the navigation
     $('.stepone').on('click', function (evt) {
@@ -19,104 +29,58 @@
       $(this).parents('body').removeClass('nav-collapsed').addClass('nav-showing');
     });
  
-// Bind a handler for state: breathing
-    $.History.bind('/breathing',function(state){
-      $('body').removeClass().addClass('breathing-on nav-collapsed');
-         });
     $('nav a.breathing-link').on('click', function (evt) {
       evt.preventDefault();
       evt.stopPropagation();
-      $.History.go('/breathing');
+      History.pushState({'class':'breathing'}, null, "?state=breathing");
     });
 
-// Bind a handler for state: beingpresent
-    $.History.bind('/beingpresent',function(state){
-      $('body').removeClass().addClass('beingpresent-on nav-collapsed');
-    });
     $('nav a.beingpresent-link').on('click', function (evt) {
       evt.preventDefault();
       evt.stopPropagation();
-      $.History.go('/beingpresent');
+      History.pushState({'class':'beingpresent'}, null, "?state=beingpresent");
     });
 
-// Bind a handler for state: mediating
-    $.History.bind('/mediating',function(state){
-      $('body').removeClass().addClass('mediating-on nav-collapsed');
-    });
     $('nav a.mediating-link').on('click', function (evt) {
       evt.preventDefault();
       evt.stopPropagation();
-      $.History.go('/mediating');
+      History.pushState({'class':'meditating'}, null, "?state=meditating");
     });
 
-// Bind a handler for state: connecting
-    $.History.bind('/connecting',function(state){
-      $('body').removeClass().addClass('connecting-on nav-collapsed');
-    });
     $('nav a.connecting-link').on('click', function (evt) {
       evt.preventDefault();
       evt.stopPropagation();
-      $.History.go('/connecting');
+      History.pushState({'class':'connecting'}, null, "?state=connecting");
     });
 
-// Bind a handler for state: hiding
-    $.History.bind('/hiding',function(state){
-      $('body').removeClass().addClass('hiding-on nav-collapsed');
-    });
     $('nav a.hiding-link').on('click', function (evt) {
       evt.preventDefault();
       evt.stopPropagation();
-      $.History.go('/hiding');
+      History.pushState({'class':'hiding'}, null, "?state=hiding");
     });
     
-// Bind a handler for state: disconnecting
-    $.History.bind('/disconnecting',function(state){
-      $('body').removeClass().addClass('disconnecting-on nav-collapsed');
-    });
     $('nav a.disconnecting-link').on('click', function (evt) {
       evt.preventDefault();
       evt.stopPropagation();
-      $.History.go('/disconnecting');
+      History.pushState({'class':'disconnecting'}, null, "?state=disconnecting");
     });
     
-// Bind a handler for state: hiding
-    $.History.bind('/hiding',function(state){
-      $('body').removeClass().addClass('hiding-on nav-collapsed');
-    });
-    $('nav a.hiding-link').on('click', function (evt) {
-      evt.preventDefault();
-      evt.stopPropagation();
-      $.History.go('/hiding');
-    });
-    
-// Bind a handler for state: looking
-    $.History.bind('/looking',function(state){
-      $('body').removeClass().addClass('looking-on nav-collapsed');
-    });
     $('nav a.looking-link').on('click', function (evt) {
       evt.preventDefault();
       evt.stopPropagation();
-      $.History.go('/looking');
+      History.pushState({'class':'looking'}, null, "?state=looking");
     });
 
-// Bind a handler for state: feeling
-    $.History.bind('/feeling',function(state){
-      $('body').removeClass().addClass('feeling-on nav-collapsed');
-    });
     $('nav a.feeling-link').on('click', function (evt) {
       evt.preventDefault();
       evt.stopPropagation();
-      $.History.go('/feeling');
+      History.pushState({'class':'feeling'}, null, "?state=feeling");
     });
 
-// Bind a handler for state: home
-    $.History.bind('/animating',function(state){
-      $('body').removeClass().addClass('animating-on nav-collapsed');
-    });
     $('nav a.animating-link').on('click', function (evt) {
       evt.preventDefault();
       evt.stopPropagation();
-      $.History.go('/animating');
+      History.pushState({'class':'animating'}, null, "?state=animating");
     });
 
 
