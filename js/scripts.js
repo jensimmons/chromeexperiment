@@ -1,9 +1,9 @@
 (function ($) {
   $(document).ready(function() {
 
-$.History.bind(function(state){
-    $.History.go(state);
-    });
+//$.History.bind(function(state){
+//    $.History.go(state);
+//    });
 
 // When the word "breathe" is clicked, show the navigation
     $('.stepone').on('click', function (evt) {
@@ -110,13 +110,13 @@ $.History.bind(function(state){
     });
 
 // Bind a handler for state: home
-    $.History.bind('/home',function(state){
+    $.History.bind('/animation',function(state){
       $('body').removeClass().addClass('start nav-collapsed');
     });
-    $('nav a.home-link').on('click', function (evt) {
+    $('nav a.animation-link').on('click', function (evt) {
       evt.preventDefault();
       evt.stopPropagation();
-      $.History.go('/home');
+      $.History.go('/animation');
     });
 
 
