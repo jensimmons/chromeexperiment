@@ -541,40 +541,34 @@ nav[role="navigation"] {
       padding-top: 20vh;
     }
     p {
-      width: 89vw;
+      width: 30%;
       text-indent: 0;
       display: block;
       position: absolute;
-      top: 70vh;
-      text-wrap: balance;
-      @media (min-width: 40em) { 
-        width: 75%;
-      }
+      bottom: 0;
       opacity: 0;
-      -webkit-animation: comeandgo 50s linear infinite 0s;
-      animation: comeandgo 50s linear infinite 0s;
+      animation: fogtext 50s linear infinite 0s;
       z-index: 100;
+      line-height: 1.2em;
+      @media (min-width: 20em) { 
+        width: 30%;    
+      }
     } 
     p:nth-child(1) {
       opacity: 1;
-      -webkit-animation-delay: 0; 
       animation-delay: 0; 
     }
     p:nth-child(2) { 
-      -webkit-animation-delay: 10s; 
-      animation-delay: 15s; 
+      animation-delay: 20s; 
     }
     p:nth-child(3) { 
-      -webkit-animation-delay: 20s; 
-      animation-delay: 30s; 
+      animation-delay: 40s; 
     }
     p:nth-child(4) { 
-      -webkit-animation-delay: 30s; 
-      animation-delay: 45s; 
+      animation-delay: 60s; 
     }
     p:nth-child(5) { 
-      -webkit-animation-delay: 40s; 
-      animation-delay: 60s; 
+      animation-delay: 80s; 
     } 
   }
 }

@@ -680,56 +680,81 @@ hr {
   /* line 86, ../sass/_animations.scss */
   0% {
     opacity: 0;
-    animation-timing-function: ease-in;
-    transform: scale(2) translate(80%, 200%);
+    transform: scale(2) translate(100%, -5%);
   }
 
-  /* line 90, ../sass/_animations.scss */
-  3% {
-    opacity: 1;
-    animation-timing-function: ease-out;
-  }
-
-  /* line 93, ../sass/_animations.scss */
-  17% {
+  /* line 87, ../sass/_animations.scss */
+  5% {
     opacity: 1;
   }
 
-  /* line 95, ../sass/_animations.scss */
-  20% {
+  /* line 88, ../sass/_animations.scss */
+  80% {
     opacity: 0;
-    transform: scale(0.5) translate(-80%, -500%);
+  }
+
+  /* line 89, ../sass/_animations.scss */
+  100% {
+    opacity: 0;
+    transform: scale(0.5) translate(-160%, -1000%);
+  }
+}
+
+@keyframes pulse {
+  /* line 96, ../sass/_animations.scss */
+  0% {
+    transform: scale(1);
+  }
+
+  /* line 97, ../sass/_animations.scss */
+  40% {
+    transform: scale(1.08);
   }
 
   /* line 98, ../sass/_animations.scss */
   100% {
-    opacity: 0;
+    transform: scale(1);
   }
 }
 
-@-webkit-keyframes fogtext {
+@-webkit-keyframes pulse {
   /* line 101, ../sass/_animations.scss */
+  0% {
+    transform: scale(1);
+  }
+
+  /* line 102, ../sass/_animations.scss */
+  40% {
+    transform: scale(1.08);
+  }
+
+  /* line 103, ../sass/_animations.scss */
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes comeandgo {
+  /* line 109, ../sass/_animations.scss */
   0% {
     opacity: 0;
     animation-timing-function: ease-in;
-    transform: scale(2) translate(80%, 200%);
   }
 
-  /* line 105, ../sass/_animations.scss */
+  /* line 110, ../sass/_animations.scss */
   3% {
     opacity: 1;
     animation-timing-function: ease-out;
   }
 
-  /* line 108, ../sass/_animations.scss */
+  /* line 111, ../sass/_animations.scss */
   17% {
     opacity: 1;
   }
 
-  /* line 110, ../sass/_animations.scss */
+  /* line 112, ../sass/_animations.scss */
   20% {
     opacity: 0;
-    transform: scale(0.5) translate(-80%, -500%);
   }
 
   /* line 113, ../sass/_animations.scss */
@@ -738,223 +763,160 @@ hr {
   }
 }
 
-@keyframes pulse {
-  /* line 120, ../sass/_animations.scss */
-  0% {
-    transform: scale(1);
-  }
-
-  /* line 121, ../sass/_animations.scss */
-  40% {
-    transform: scale(1.08);
-  }
-
-  /* line 122, ../sass/_animations.scss */
-  100% {
-    transform: scale(1);
-  }
-}
-
-@-webkit-keyframes pulse {
-  /* line 125, ../sass/_animations.scss */
-  0% {
-    transform: scale(1);
-  }
-
-  /* line 126, ../sass/_animations.scss */
-  40% {
-    transform: scale(1.08);
-  }
-
-  /* line 127, ../sass/_animations.scss */
-  100% {
-    transform: scale(1);
-  }
-}
-
-@keyframes comeandgo {
-  /* line 133, ../sass/_animations.scss */
-  0% {
-    opacity: 0;
-    animation-timing-function: ease-in;
-  }
-
-  /* line 134, ../sass/_animations.scss */
-  3% {
-    opacity: 1;
-    animation-timing-function: ease-out;
-  }
-
-  /* line 135, ../sass/_animations.scss */
-  17% {
-    opacity: 1;
-  }
-
-  /* line 136, ../sass/_animations.scss */
-  20% {
-    opacity: 0;
-  }
-
-  /* line 137, ../sass/_animations.scss */
-  100% {
-    opacity: 0;
-  }
-}
-
 @-webkit-keyframes comeandgo {
-  /* line 140, ../sass/_animations.scss */
+  /* line 116, ../sass/_animations.scss */
   0% {
     opacity: 0;
     animation-timing-function: ease-in;
   }
 
-  /* line 141, ../sass/_animations.scss */
+  /* line 117, ../sass/_animations.scss */
   3% {
     opacity: 1;
     animation-timing-function: ease-out;
   }
 
-  /* line 142, ../sass/_animations.scss */
+  /* line 118, ../sass/_animations.scss */
   17% {
     opacity: 1;
   }
 
-  /* line 143, ../sass/_animations.scss */
+  /* line 119, ../sass/_animations.scss */
   20% {
     opacity: 0;
   }
 
-  /* line 144, ../sass/_animations.scss */
+  /* line 120, ../sass/_animations.scss */
   100% {
     opacity: 0;
   }
 }
 
 @keyframes breathe {
-  /* line 148, ../sass/_animations.scss */
+  /* line 124, ../sass/_animations.scss */
   0% {
     transform: scale(1);
   }
 
-  /* line 149, ../sass/_animations.scss */
+  /* line 125, ../sass/_animations.scss */
   40% {
     transform: scale(1.08);
   }
 
-  /* line 150, ../sass/_animations.scss */
+  /* line 126, ../sass/_animations.scss */
   100% {
     transform: scale(1);
   }
 }
 
 @-webkit-keyframes breathe {
-  /* line 153, ../sass/_animations.scss */
+  /* line 129, ../sass/_animations.scss */
   0% {
     -webkit-transform: scale(1);
   }
 
-  /* line 154, ../sass/_animations.scss */
+  /* line 130, ../sass/_animations.scss */
   40% {
     -webkit-transform: scale(1.08);
   }
 
-  /* line 155, ../sass/_animations.scss */
+  /* line 131, ../sass/_animations.scss */
   100% {
     -webkit-transform: scale(1);
   }
 }
 
 @keyframes breathe-bigger {
-  /* line 158, ../sass/_animations.scss */
+  /* line 134, ../sass/_animations.scss */
   0% {
     transform: scale(1);
   }
 
-  /* line 159, ../sass/_animations.scss */
+  /* line 135, ../sass/_animations.scss */
   40% {
     transform: scale(1.18);
   }
 
-  /* line 160, ../sass/_animations.scss */
+  /* line 136, ../sass/_animations.scss */
   100% {
     transform: scale(1);
   }
 }
 
 @-webkit-keyframes breathe-bigger {
-  /* line 163, ../sass/_animations.scss */
+  /* line 139, ../sass/_animations.scss */
   0% {
     -webkit-transform: scale(1);
   }
 
-  /* line 164, ../sass/_animations.scss */
+  /* line 140, ../sass/_animations.scss */
   40% {
     -webkit-transform: scale(1.18);
   }
 
-  /* line 165, ../sass/_animations.scss */
+  /* line 141, ../sass/_animations.scss */
   100% {
     -webkit-transform: scale(1);
   }
 }
 
 @keyframes slowreveal {
-  /* line 169, ../sass/_animations.scss */
+  /* line 145, ../sass/_animations.scss */
   0% {
     opacity: 0;
     animation-timing-function: ease-in;
   }
 
-  /* line 170, ../sass/_animations.scss */
+  /* line 146, ../sass/_animations.scss */
   3% {
     opacity: 1;
     animation-timing-function: ease-out;
   }
 
-  /* line 171, ../sass/_animations.scss */
+  /* line 147, ../sass/_animations.scss */
   100% {
     opacity: 1;
   }
 }
 
 @-webkit-keyframes slowreveal {
-  /* line 174, ../sass/_animations.scss */
+  /* line 150, ../sass/_animations.scss */
   0% {
     opacity: 0;
     animation-timing-function: ease-in;
   }
 
-  /* line 175, ../sass/_animations.scss */
+  /* line 151, ../sass/_animations.scss */
   3% {
     opacity: 1;
     animation-timing-function: ease-out;
   }
 
-  /* line 176, ../sass/_animations.scss */
+  /* line 152, ../sass/_animations.scss */
   100% {
     opacity: 1;
   }
 }
 
 @keyframes reveal {
-  /* line 180, ../sass/_animations.scss */
+  /* line 156, ../sass/_animations.scss */
   0% {
     opacity: 0;
   }
 
-  /* line 181, ../sass/_animations.scss */
+  /* line 157, ../sass/_animations.scss */
   100% {
     opacity: 1;
   }
 }
 
 @-webkit-keyframes reveal {
-  /* line 184, ../sass/_animations.scss */
+  /* line 160, ../sass/_animations.scss */
   0% {
     opacity: 0;
   }
 
-  /* line 185, ../sass/_animations.scss */
+  /* line 161, ../sass/_animations.scss */
   100% {
     opacity: 1;
   }
