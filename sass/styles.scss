@@ -400,6 +400,7 @@ nav[role="navigation"] {
 .beingpresent-on {
   .beingpresent {
     @include make-a-page;
+    display: block;
     padding: 0.5em;
     @media (min-width: 25em) { 
       padding: 1em 2em;
@@ -420,7 +421,7 @@ nav[role="navigation"] {
     }
     
 // Let's get the Flip Animation Going    
-    @include perspective(600px); 
+/*    @include perspective(600px); 
     .front {
       @include transform (rotateY(0deg));
     	-webkit-backface-visibility: hidden; 
@@ -448,6 +449,7 @@ nav[role="navigation"] {
         @include transform (rotateY(0deg));
       }
     }
+    */
   }
 }
 
