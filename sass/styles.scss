@@ -237,7 +237,6 @@ nav[role="navigation"] {
   left: 0;
   width: 100%;
   min-height: 100vh;
-  @include background-size (cover);
 }
 
 
@@ -567,7 +566,8 @@ nav[role="navigation"] {
     @media (min-width: 40em) { 
       padding: 4em 8em;
     }      
-    background: url('../images/nietnagel-snow.jpg') no-repeat fixed center center / cover #d8d8d8;
+    background: url('../images/nietnagel-snow.jpg') no-repeat fixed center center #d8d8d8;
+    @include background-size (cover);
     color: #fff;
     @include text-shadow (0px 0px 8px rgba(0, 0, 0, 0.6));
     text-align: center;
@@ -624,7 +624,8 @@ nav[role="navigation"] {
   .disconnecting {
     padding: 0 2em 0 33vw;
     @include make-a-page;
-    background: url('../images/nietnagel-mountain.jpg') no-repeat fixed center center / cover #edebff;
+    background: url('../images/nietnagel-mountain.jpg') no-repeat fixed center center #edebff;
+    @include background-size (cover);
     color: #fff;
   }
 }
@@ -636,7 +637,8 @@ nav[role="navigation"] {
   .looking {
     @include make-a-page;
     padding: 0 0 0 33vw;
-    background: url('../images/nietnagel-fall.jpg') no-repeat center center / cover #e39102;
+    background: #e39102 url('../images/nietnagel-fall.jpg') no-repeat center center scroll;
+    @include background-size (cover);
   }
 }
 

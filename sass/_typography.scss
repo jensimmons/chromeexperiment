@@ -80,14 +80,14 @@ a.section-anchor {
   padding-top: 55px;
 }
 
-::-moz-selection {
-    background: $highlight;
-    text-shadow: none;
-}
-::selection {
-    background: $highlight;
-    text-shadow: none;
-}
+//::-moz-selection {
+//    background: $highlight;
+//    text-shadow: none;
+//}
+//::selection {
+//    background: $highlight;
+//    text-shadow: none;
+//}
 
 img {
     vertical-align: middle;

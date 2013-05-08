@@ -1,5 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Averia+Serif+Libre);
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_normalize\.scss}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_normalize\.scss}line{font-family:\0000322}}
 article,
 aside,
 details,
@@ -14,32 +14,32 @@ summary {
   display: block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_normalize\.scss}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_normalize\.scss}line{font-family:\0000332}}
 audio,
 canvas,
 video {
   display: inline-block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_normalize\.scss}line{font-family:\0000343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_normalize\.scss}line{font-family:\0000343}}
 audio:not([controls]) {
   display: none;
   height: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_normalize\.scss}line{font-family:\0000354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_normalize\.scss}line{font-family:\0000354}}
 [hidden] {
   display: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_normalize\.scss}line{font-family:\0000369}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_normalize\.scss}line{font-family:\0000369}}
 html {
   font-size: 100%;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_normalize\.scss}line{font-family:\0000384}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_normalize\.scss}line{font-family:\0000384}}
 html,
 button,
 input,
@@ -48,93 +48,93 @@ textarea {
   font-family: sans-serif;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_normalize\.scss}line{font-family:\0000392}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_normalize\.scss}line{font-family:\0000392}}
 body {
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_normalize\.scss}line{font-family:\00003104}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_normalize\.scss}line{font-family:\00003104}}
 a:focus {
   outline: thin dotted;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_normalize\.scss}line{font-family:\00003113}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_normalize\.scss}line{font-family:\00003113}}
 a:active,
 a:hover {
   outline: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_normalize\.scss}line{font-family:\00003127}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_normalize\.scss}line{font-family:\00003127}}
 Typography
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_normalize\.scss}line{font-family:\00003132}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_normalize\.scss}line{font-family:\00003132}}
 h2 {
   font-size: 1.5em;
   margin: 0.83em 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_normalize\.scss}line{font-family:\00003137}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_normalize\.scss}line{font-family:\00003137}}
 h3 {
   font-size: 1.17em;
   margin: 1em 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_normalize\.scss}line{font-family:\00003142}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_normalize\.scss}line{font-family:\00003142}}
 h4 {
   font-size: 1em;
   margin: 1.33em 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_normalize\.scss}line{font-family:\00003147}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_normalize\.scss}line{font-family:\00003147}}
 h5 {
   font-size: 0.83em;
   margin: 1.67em 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_normalize\.scss}line{font-family:\00003152}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_normalize\.scss}line{font-family:\00003152}}
 h6 {
   font-size: 0.75em;
   margin: 2.33em 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_normalize\.scss}line{font-family:\00003161}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_normalize\.scss}line{font-family:\00003161}}
 abbr[title] {
   border-bottom: 1px dotted;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_normalize\.scss}line{font-family:\00003170}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_normalize\.scss}line{font-family:\00003170}}
 b,
 strong {
   font-weight: bold;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_normalize\.scss}line{font-family:\00003174}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_normalize\.scss}line{font-family:\00003174}}
 blockquote {
   margin: 1em 40px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_normalize\.scss}line{font-family:\00003182}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_normalize\.scss}line{font-family:\00003182}}
 dfn {
   font-style: italic;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_normalize\.scss}line{font-family:\00003190}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_normalize\.scss}line{font-family:\00003190}}
 mark {
   background: #ff0;
   color: #000;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_normalize\.scss}line{font-family:\00003200}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_normalize\.scss}line{font-family:\00003200}}
 p,
 pre {
   margin: 1em 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_normalize\.scss}line{font-family:\00003211}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_normalize\.scss}line{font-family:\00003211}}
 code,
 kbd,
 pre,
@@ -144,31 +144,31 @@ samp {
   font-size: 1em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_normalize\.scss}line{font-family:\00003221}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_normalize\.scss}line{font-family:\00003221}}
 pre {
   white-space: pre;
   white-space: pre-wrap;
   word-wrap: break-word;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_normalize\.scss}line{font-family:\00003231}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_normalize\.scss}line{font-family:\00003231}}
 q {
   quotes: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_normalize\.scss}line{font-family:\00003240}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_normalize\.scss}line{font-family:\00003240}}
 q:before,
 q:after {
   content: '';
   content: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_normalize\.scss}line{font-family:\00003249}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_normalize\.scss}line{font-family:\00003249}}
 small {
   font-size: 80%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_normalize\.scss}line{font-family:\00003258}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_normalize\.scss}line{font-family:\00003258}}
 sub,
 sup {
   font-size: 75%;
@@ -177,17 +177,17 @@ sup {
   vertical-align: baseline;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_normalize\.scss}line{font-family:\00003265}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_normalize\.scss}line{font-family:\00003265}}
 sup {
   top: -0.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_normalize\.scss}line{font-family:\00003269}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_normalize\.scss}line{font-family:\00003269}}
 sub {
   bottom: -0.25em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_normalize\.scss}line{font-family:\00003284}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_normalize\.scss}line{font-family:\00003284}}
 dl,
 menu,
 ol,
@@ -195,61 +195,61 @@ ul {
   margin: 1em 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_normalize\.scss}line{font-family:\00003288}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_normalize\.scss}line{font-family:\00003288}}
 dd {
   margin: 0 0 0 40px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_normalize\.scss}line{font-family:\00003298}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_normalize\.scss}line{font-family:\00003298}}
 menu,
 ol,
 ul {
   padding: 0 0 0 40px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_normalize\.scss}line{font-family:\00003307}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_normalize\.scss}line{font-family:\00003307}}
 nav ul,
 nav ol {
   list-style: none;
   list-style-image: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_normalize\.scss}line{font-family:\00003321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_normalize\.scss}line{font-family:\00003321}}
 img {
   border: 0;
   -ms-interpolation-mode: bicubic;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_normalize\.scss}line{font-family:\00003330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_normalize\.scss}line{font-family:\00003330}}
 svg:not(:root) {
   overflow: hidden;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_normalize\.scss}line{font-family:\00003342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_normalize\.scss}line{font-family:\00003342}}
 figure {
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_normalize\.scss}line{font-family:\00003354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_normalize\.scss}line{font-family:\00003354}}
 form {
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_normalize\.scss}line{font-family:\00003362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_normalize\.scss}line{font-family:\00003362}}
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_normalize\.scss}line{font-family:\00003374}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_normalize\.scss}line{font-family:\00003374}}
 legend {
   border: 0;
   padding: 0;
   white-space: normal;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_normalize\.scss}line{font-family:\00003391}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_normalize\.scss}line{font-family:\00003391}}
 button,
 input,
 select,
@@ -259,13 +259,13 @@ textarea {
   vertical-align: baseline;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_normalize\.scss}line{font-family:\00003404}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_normalize\.scss}line{font-family:\00003404}}
 button,
 input {
   line-height: normal;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_normalize\.scss}line{font-family:\00003421}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_normalize\.scss}line{font-family:\00003421}}
 button,
 html input[type="button"],
 input[type="reset"],
@@ -274,20 +274,20 @@ input[type="submit"] {
   cursor: pointer;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_normalize\.scss}line{font-family:\00003432}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_normalize\.scss}line{font-family:\00003432}}
 button[disabled],
 input[disabled] {
   cursor: default;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_normalize\.scss}line{font-family:\00003444}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_normalize\.scss}line{font-family:\00003444}}
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
   padding: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_normalize\.scss}line{font-family:\00003457}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_normalize\.scss}line{font-family:\00003457}}
 input[type="search"] {
   -webkit-appearance: textfield;
   -moz-box-sizing: content-box;
@@ -295,45 +295,45 @@ input[type="search"] {
   box-sizing: content-box;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_normalize\.scss}line{font-family:\00003470}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_normalize\.scss}line{font-family:\00003470}}
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_normalize\.scss}line{font-family:\00003479}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_normalize\.scss}line{font-family:\00003479}}
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_normalize\.scss}line{font-family:\00003489}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_normalize\.scss}line{font-family:\00003489}}
 textarea {
   overflow: auto;
   vertical-align: top;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_normalize\.scss}line{font-family:\00003502}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_normalize\.scss}line{font-family:\00003502}}
 Tables
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\000033}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\000033}}
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/typography\/_vertical_rhythm\.scss}line{font-family:\0000361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/\.rvm\/gems\/ruby-1\.9\.3-p327\@r3ish\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/typography\/_vertical_rhythm\.scss}line{font-family:\0000361}}
 * html {
   font-size: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/typography\/_vertical_rhythm\.scss}line{font-family:\0000364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/\.rvm\/gems\/ruby-1\.9\.3-p327\@r3ish\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/typography\/_vertical_rhythm\.scss}line{font-family:\0000364}}
 html {
   font-size: 16px;
   line-height: 1.625em;
@@ -348,30 +348,30 @@ html {
    for our block level elements and to set the line heights of any fonts.
    For more information, see http://24ways.org/2006/compose-to-a-vertical-rhythm
    ========================================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_typography\.scss}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_typography\.scss}line{font-family:\0000311}}
 body {
   font-family: "Averia Serif Libre", Georgia, "Times New Roman", "DejaVu Serif", serif;
   color: #1b1d1e;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_typography\.scss}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_typography\.scss}line{font-family:\0000316}}
 h1, h2, h3, h4, h5, h6 {
   font-family: "Averia Serif Libre", Georgia, "Times New Roman", "DejaVu Serif", serif;
   font-weight: 500;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_typography\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_typography\.scss}line{font-family:\0000320}}
 h1 {
   font-size: 3em;
   line-height: 1.08333em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_typography\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_typography\.scss}line{font-family:\0000323}}
 h1 + h1 {
   margin-top: 0em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_typography\.scss}line{font-family:\0000326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_typography\.scss}line{font-family:\0000326}}
 h2 {
   font-size: 1.85em;
   line-height: 1.75676em;
@@ -380,7 +380,7 @@ h2 {
   line-height: 1.05405em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_typography\.scss}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_typography\.scss}line{font-family:\0000332}}
 h3 {
   font-size: 1.3em;
   line-height: 1.25em;
@@ -389,7 +389,7 @@ h3 {
   line-height: 1.05405em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_typography\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_typography\.scss}line{font-family:\0000338}}
 h4 {
   font-size: 1.2em;
   line-height: 1.35417em;
@@ -397,7 +397,7 @@ h4 {
   margin-bottom: 0em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_typography\.scss}line{font-family:\0000343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_typography\.scss}line{font-family:\0000343}}
 h5 {
   font-size: 1em;
   line-height: 1.625em;
@@ -405,7 +405,7 @@ h5 {
   margin-bottom: 0em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_typography\.scss}line{font-family:\0000348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_typography\.scss}line{font-family:\0000348}}
 h6 {
   font-size: 0.83em;
   line-height: 1.95783em;
@@ -413,32 +413,32 @@ h6 {
   margin-bottom: 0em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_typography\.scss}line{font-family:\0000354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_typography\.scss}line{font-family:\0000354}}
 p {
   margin: 0.65em 0;
   text-indent: 1em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_typography\.scss}line{font-family:\0000357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_typography\.scss}line{font-family:\0000357}}
 p.noindent, p.caption p {
   text-indent: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_typography\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_typography\.scss}line{font-family:\0000360}}
 p.caption {
   text-align: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_typography\.scss}line{font-family:\0000362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_typography\.scss}line{font-family:\0000362}}
 .lightbox p.caption {
   color: #fff;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_typography\.scss}line{font-family:\0000370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_typography\.scss}line{font-family:\0000370}}
 a,
 a:link,
 a:visited {
   color: #4b78cc;
   text-decoration: underline;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_typography\.scss}line{font-family:\0000374}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_typography\.scss}line{font-family:\0000374}}
 a:hover, a:focus,
 a:link:hover,
 a:link:focus,
@@ -447,30 +447,18 @@ a:visited:focus {
   color: #7396d7;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_typography\.scss}line{font-family:\0000378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_typography\.scss}line{font-family:\0000378}}
 a.section-anchor {
   display: block;
   padding-top: 55px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_typography\.scss}line{font-family:\0000383}}
-::-moz-selection {
-  background: #ffee98;
-  text-shadow: none;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_typography\.scss}line{font-family:\0000387}}
-::selection {
-  background: #ffee98;
-  text-shadow: none;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_typography\.scss}line{font-family:\0000392}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_typography\.scss}line{font-family:\0000392}}
 img {
   vertical-align: middle;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_typography\.scss}line{font-family:\0000395}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_typography\.scss}line{font-family:\0000395}}
 figcaption {
   font-family: Georgia, "Times New Roman", "DejaVu Serif", serif;
   font-size: 0.875em;
@@ -478,12 +466,12 @@ figcaption {
   color: #4b5154;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_typography\.scss}line{font-family:\00003101}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_typography\.scss}line{font-family:\00003101}}
 blockquote {
   margin: 0.8125em 1em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_typography\.scss}line{font-family:\00003104}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_typography\.scss}line{font-family:\00003104}}
 cite {
   margin: 0.8125em 1em;
   font-size: 0.75em;
@@ -492,18 +480,18 @@ cite {
   font-style: normal;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_typography\.scss}line{font-family:\00003111}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_typography\.scss}line{font-family:\00003111}}
 canvas {
   background: #fff;
   margin: 1.625em 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_typography\.scss}line{font-family:\00003116}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_typography\.scss}line{font-family:\00003116}}
 pre {
   margin: 0.5em 0 1em 1em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_typography\.scss}line{font-family:\00003119}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_typography\.scss}line{font-family:\00003119}}
 .static-code-container {
   font-size: 0.8125em;
   line-height: 2em;
@@ -511,7 +499,7 @@ pre {
   clear: both;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_typography\.scss}line{font-family:\00003127}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_typography\.scss}line{font-family:\00003127}}
 code,
 kbd,
 samp {
@@ -521,7 +509,7 @@ samp {
   line-height: 1em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_typography\.scss}line{font-family:\00003137}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_typography\.scss}line{font-family:\00003137}}
 dl,
 menu,
 ol,
@@ -530,17 +518,17 @@ ul,
   margin: 0.8em 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_typography\.scss}line{font-family:\00003140}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_typography\.scss}line{font-family:\00003140}}
 ul {
   padding-left: 1.6em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_typography\.scss}line{font-family:\00003143}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_typography\.scss}line{font-family:\00003143}}
 ol {
   padding-left: 1.9em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_typography\.scss}line{font-family:\00003147}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_typography\.scss}line{font-family:\00003147}}
 hr {
   height: 1px;
   border: 0;
@@ -607,7 +595,7 @@ hr {
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_animations\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_animations\.scss}line{font-family:\0000325}}
 .fog {
   position: absolute;
   width: 32px;
@@ -618,7 +606,7 @@ hr {
   animation: blowingfog 7s infinite;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_animations\.scss}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_animations\.scss}line{font-family:\0000334}}
 .fog2 {
   position: absolute;
   width: 32px;
@@ -629,7 +617,7 @@ hr {
   animation: blowingfog2 3s infinite;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_animations\.scss}line{font-family:\0000343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_animations\.scss}line{font-family:\0000343}}
 .fog3 {
   position: absolute;
   width: 32px;
@@ -640,7 +628,7 @@ hr {
   animation: blowingfog 5s infinite;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_animations\.scss}line{font-family:\0000352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_animations\.scss}line{font-family:\0000352}}
 .fog4 {
   position: absolute;
   width: 32px;
@@ -982,7 +970,7 @@ hr {
   -webkit-transition-delay: 1s;
 }
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\0000317}}
 html {
   background: #000;
   background-image: -webkit-gradient(radial, ellipse at 70% 65%, 0, ellipse at 70% 65%, 100, color-stop(0%, #272f3c), color-stop(50%, #212730), color-stop(100%, #000000));
@@ -994,7 +982,7 @@ html {
   background-attachment: fixed;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\0000323}}
 body {
   -webkit-perspective: 600px;
   -moz-perspective: 600px;
@@ -1004,17 +992,17 @@ body {
   transform-style: preserve-3d;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\0000327}}
 a, a:link, a:visited {
   text-decoration: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\0000330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\0000330}}
 dl {
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\0000344}}
 .breathing,
 .beingpresent,
 .meditating,
@@ -1027,7 +1015,7 @@ dl {
   display: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\0000348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\0000348}}
 .skip-link {
   position: absolute !important;
   height: 1px;
@@ -1036,7 +1024,7 @@ dl {
   clip: rect(1px 1px 1px 1px);
   clip: rect(1px, 1px, 1px, 1px);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/_mixins\.scss}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/_mixins\.scss}line{font-family:\0000335}}
 .skip-link:active, .skip-link:focus {
   position: static !important;
   clip: auto;
@@ -1045,12 +1033,12 @@ dl {
   overflow: auto;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\0000392}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\0000392}}
 nav[role="navigation"] {
   position: relative;
   z-index: 100;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\0000395}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\0000395}}
 nav[role="navigation"] a {
   display: block;
   position: absolute;
@@ -1072,73 +1060,73 @@ nav[role="navigation"] a {
   transition: transform 300ms ease-out;
 }
 @media (min-width: 10em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\0000395}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\0000395}}
   nav[role="navigation"] a {
     height: 33vw;
     width: 33vw;
   }
 }
 @media (min-width: 15em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\0000395}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\0000395}}
   nav[role="navigation"] a {
     height: 20vw;
     width: 20vw;
   }
 }
 @media (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\0000395}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\0000395}}
   nav[role="navigation"] a {
     height: 15vw;
     width: 15vw;
   }
 }
 @media (min-width: 50em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\0000395}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\0000395}}
   nav[role="navigation"] a {
     height: 10vw;
     width: 10vw;
   }
 }
 @media (min-width: 75em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\0000395}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\0000395}}
   nav[role="navigation"] a {
     height: 8vw;
     width: 8vw;
   }
 }
 @media (min-width: 100em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\0000395}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\0000395}}
   nav[role="navigation"] a {
     height: 100px;
     width: 100px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003103}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003103}}
 nav[role="navigation"] a.breathing-link {
   background: url("../images/square/nietnagel-trees.jpg") center center no-repeat;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003106}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003106}}
 nav[role="navigation"] a.beingpresent-link {
   background: url("../images/square/nietnagel-marsh.jpg") center center no-repeat;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003109}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003109}}
 nav[role="navigation"] a.meditating-link {
   background: url("../images/square/nietnagel-snow.jpg") center center no-repeat;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003112}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003112}}
 nav[role="navigation"] a.disconnecting-link {
   background: url("../images/square/nietnagel-mountain.jpg") center center no-repeat;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003115}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003115}}
 nav[role="navigation"] a.looking-link {
   background: url("../images/square/nietnagel-fall.jpg") center center no-repeat;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003118}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003118}}
 nav[role="navigation"] a.animating-link {
   background: url("../images/square/nietnagel-woods.jpg") center center no-repeat;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003123}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003123}}
 .nav-placeholder {
   display: block;
   z-index: 101;
@@ -1161,109 +1149,109 @@ nav[role="navigation"] a.animating-link {
   background: rgba(255, 255, 255, 0.2);
 }
 @media (min-width: 10em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003123}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003123}}
   .nav-placeholder {
     height: 33vw;
     width: 33vw;
   }
 }
 @media (min-width: 15em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003123}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003123}}
   .nav-placeholder {
     height: 20vw;
     width: 20vw;
   }
 }
 @media (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003123}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003123}}
   .nav-placeholder {
     height: 15vw;
     width: 15vw;
   }
 }
 @media (min-width: 50em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003123}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003123}}
   .nav-placeholder {
     height: 10vw;
     width: 10vw;
   }
 }
 @media (min-width: 75em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003123}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003123}}
   .nav-placeholder {
     height: 8vw;
     width: 8vw;
   }
 }
 @media (min-width: 100em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003123}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003123}}
   .nav-placeholder {
     height: 100px;
     width: 100px;
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003132}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003132}}
 .nav-showing .nav-placeholder {
   z-index: 99;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003138}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003138}}
 .nav-showing nav[role="navigation"] a:nth-child(1) {
   transform: translate(0vw, 0vh);
   -webkit-transform: translate(0, 0);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003142}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003142}}
 .nav-showing nav[role="navigation"] a:nth-child(2) {
   transform: translate(31vw, 5vh);
   -webkit-transform: translate(80px, 60px);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003146}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003146}}
 .nav-showing nav[role="navigation"] a:nth-child(3) {
   transform: translate(66vw, 0vh);
   -webkit-transform: translate(35px, 125px);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003150}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003150}}
 .nav-showing nav[role="navigation"] a:nth-child(4) {
   transform: translate(11vw, 16vh);
   -webkit-transform: translate(150px, 100px);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003154}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003154}}
 .nav-showing nav[role="navigation"] a:nth-child(5) {
   transform: translate(55vw, 14vh);
   -webkit-transform: translate(210px, 40px);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003158}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003158}}
 .nav-showing nav[role="navigation"] a:nth-child(6) {
   transform: translate(38vw, 27vh);
   -webkit-transform: translate(240px, 115px);
 }
 @media (min-width: 30em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003164}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003164}}
   .nav-showing nav[role="navigation"] a:nth-child(1) {
     transform: translate(0, 0);
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003167}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003167}}
   .nav-showing nav[role="navigation"] a:nth-child(2) {
     transform: translate(26vw, 5vh);
     -webkit-transform: translate(100px, 100px);
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003171}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003171}}
   .nav-showing nav[role="navigation"] a:nth-child(3) {
     transform: translate(24vw, 40vh);
     -webkit-transform: translate(50px, 150px);
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003175}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003175}}
   .nav-showing nav[role="navigation"] a:nth-child(4) {
     transform: translate(12vw, 22vh);
     -webkit-transform: translate(150px, 100px);
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003179}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003179}}
   .nav-showing nav[role="navigation"] a:nth-child(5) {
     transform: translate(1vw, 45vh);
     -webkit-transform: translate(220px, 40px);
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003183}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003183}}
   .nav-showing nav[role="navigation"] a:nth-child(6) {
     transform: translate(15vw, 65vh);
     -webkit-transform: translate(200px, 180px);
@@ -1287,7 +1275,7 @@ nav[role="navigation"] a.animating-link {
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003206}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003206}}
 .nav-collapsed nav[role="navigation"] a {
   -webkit-animation-name: hide;
   -webkit-animation-duration: 20ms;
@@ -1299,7 +1287,7 @@ nav[role="navigation"] a.animating-link {
   animation-delay: 280ms;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003247}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003246}}
 .animating-on .animating {
   display: block;
   overflow: hidden;
@@ -1308,10 +1296,6 @@ nav[role="navigation"] a.animating-link {
   left: 0;
   width: 100%;
   min-height: 100vh;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
   padding: 0;
   background: #356019 url("../images/nietnagel-woods.jpg") center center;
   -webkit-background-size: cover;
@@ -1321,16 +1305,16 @@ nav[role="navigation"] a.animating-link {
   color: #fff;
 }
 @media (min-width: 25em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003247}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003246}}
   .animating-on .animating {
     padding: 0;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003256}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003255}}
 .animating-on .animating a, .animating-on .animating a:link, .animating-on .animating a:visited, .animating-on .animating a:focus {
   color: #fff;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003259}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003258}}
 .animating-on .animating dl {
   position: relative;
   overflow: hidden;
@@ -1341,7 +1325,7 @@ nav[role="navigation"] a.animating-link {
   margin-top: 50vh;
 }
 @media (min-width: 30em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003259}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003258}}
   .animating-on .animating dl {
     float: right;
     width: 50vw;
@@ -1349,32 +1333,32 @@ nav[role="navigation"] a.animating-link {
     margin: 0;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003273}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003272}}
 .animating-on .animating dt {
   font-size: 10vw;
   line-height: 0.7em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003276}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003275}}
 .animating-on .animating dt small {
   display: block;
   font-size: 33%;
   margin-left: 1em;
 }
 @media (min-width: 30em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003273}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003272}}
   .animating-on .animating dt {
     font-size: 10vw;
     line-height: 0.7em;
     margin-top: 7vh;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003285}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003284}}
   .animating-on .animating dt small {
     display: block;
     font-size: 33%;
     margin-left: 1em;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003292}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003291}}
 .animating-on .animating dd {
   position: absolute;
   top: 0;
@@ -1390,85 +1374,85 @@ nav[role="navigation"] a.animating-link {
   animation-fill-mode: normal;
 }
 @media (min-width: 30em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003292}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003291}}
   .animating-on .animating dd {
     margin: 50vh 2em 0 0;
   }
 }
 @media (min-width: 35em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003292}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003291}}
   .animating-on .animating dd {
     font-size: 1.8em;
     line-height: 1.2em;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003311}}
 .animating-on .animating dd:nth-child(2) {
   -webkit-animation-delay: 0;
   animation-delay: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003315}}
 .animating-on .animating dd:nth-child(3) {
   -webkit-animation-delay: 6s;
   animation-delay: 6s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003319}}
 .animating-on .animating dd:nth-child(4) {
   -webkit-animation-delay: 12s;
   animation-delay: 12s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003323}}
 .animating-on .animating dd:nth-child(5) {
   -webkit-animation-delay: 18s;
   animation-delay: 18s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003327}}
 .animating-on .animating dd:nth-child(6) {
   -webkit-animation-delay: 24s;
   animation-delay: 24s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003331}}
 .animating-on .animating dd:nth-child(7) {
   -webkit-animation-delay: 30s;
   animation-delay: 30s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003335}}
 .animating-on .animating dd:nth-child(8) {
   -webkit-animation-delay: 36s;
   animation-delay: 36s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003339}}
 .animating-on .animating dd:nth-child(9) {
   -webkit-animation-delay: 42s;
   animation-delay: 42s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003343}}
 .animating-on .animating dd:nth-child(10) {
   -webkit-animation-delay: 48s;
   animation-delay: 48s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003347}}
 .animating-on .animating dd:nth-child(11) {
   -webkit-animation-delay: 54s;
   animation-delay: 54s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003351}}
 .animating-on .animating dd:nth-child(12) {
   -webkit-animation-delay: 60s;
   animation-delay: 60s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003355}}
 .animating-on .animating dd:nth-child(13) {
   -webkit-animation-delay: 33s;
   animation-delay: 33s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003359}}
 .animating-on .animating dd:nth-child(14) {
   -webkit-animation-delay: 36s;
   animation-delay: 36s;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003370}}
 .breathing-on .breathing {
   display: block;
   overflow: hidden;
@@ -1477,10 +1461,6 @@ nav[role="navigation"] a.animating-link {
   left: 0;
   width: 100%;
   min-height: 100vh;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
   padding: 0.5em;
   background: #07a1d7 url("../images/nietnagel-trees.jpg") center center no-repeat;
   -webkit-background-size: cover;
@@ -1489,18 +1469,18 @@ nav[role="navigation"] a.animating-link {
   background-size: cover;
 }
 @media (min-width: 25em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003370}}
   .breathing-on .breathing {
     padding: 1em 2em;
   }
 }
 @media (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003370}}
   .breathing-on .breathing {
     padding: 4em 8em;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003382}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003381}}
 .breathing-on .breathing p {
   background: rgba(0, 4, 6, 0.55);
   font-size: 94%;
@@ -1520,40 +1500,40 @@ nav[role="navigation"] a.animating-link {
   animation-fill-mode: forwards;
 }
 @media (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003382}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003381}}
   .breathing-on .breathing p {
     margin-right: 33%;
     padding: 1.4em 1.8em 1.3em;
     line-height: 1.75em;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003405}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003404}}
 .breathing-on .breathing p:nth-child(1) {
   -webkit-animation-delay: 0;
   animation-delay: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003409}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003408}}
 .breathing-on .breathing p:nth-child(2) {
   -webkit-animation-delay: 4s;
   animation-delay: 4s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003413}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003412}}
 .breathing-on .breathing p:nth-child(3) {
   -webkit-animation-delay: 11s;
   animation-delay: 11s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003417}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003416}}
 .breathing-on .breathing p:nth-child(4) {
   -webkit-animation-delay: 19s;
   animation-delay: 20s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003421}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003420}}
 .breathing-on .breathing p:nth-child(5) {
   -webkit-animation-delay: 25s;
   animation-delay: 30s;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003432}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003431}}
 .beingpresent-on .beingpresent {
   display: block;
   overflow: hidden;
@@ -1562,10 +1542,6 @@ nav[role="navigation"] a.animating-link {
   left: 0;
   width: 100%;
   min-height: 100vh;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
   background: #2f2e2b;
   background-image: -webkit-gradient(radial, ellipse at 70% 65%, 0, ellipse at 70% 65%, 100, color-stop(0%, #2f2e2b), color-stop(50%, #22201b), color-stop(100%, #000000));
   background-image: -webkit-radial-gradient(ellipse at 70% 65%, #2f2e2b 0%, #22201b 50%, #000000 100%);
@@ -1575,26 +1551,26 @@ nav[role="navigation"] a.animating-link {
   display: block;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003438}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003437}}
 .beingpresent-on .beingpresent h1 {
   position: absolute;
   top: 1vh;
   left: 2vw;
   font-size: 10vw;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003444}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003443}}
 .beingpresent-on .beingpresent p {
   text-indent: 0;
   padding: 1em;
   font-size: 5vw;
   line-height: 6vw;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003450}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003449}}
 .beingpresent-on .beingpresent figure {
   height: 100vh;
   width: 100vw;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003454}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003453}}
 .beingpresent-on .beingpresent .card {
   float: left;
   -webkit-perspective: 600px;
@@ -1606,27 +1582,27 @@ nav[role="navigation"] a.animating-link {
   height: 33.33333vh;
   width: 50vw;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003462}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003461}}
 .beingpresent-on .beingpresent .first,
 .beingpresent-on .beingpresent .fourth {
   display: none;
 }
 @media (min-width: 22em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003466}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003465}}
   .beingpresent-on .beingpresent .card {
     width: 33.33333vw;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003469}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003468}}
   .beingpresent-on .beingpresent .first {
     display: block;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003472}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003471}}
   .beingpresent-on .beingpresent h1 {
     top: 1vh;
     left: 2vw;
     font-size: 7.5vw;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003477}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003476}}
   .beingpresent-on .beingpresent p {
     padding: 2vh 3vw;
     font-size: 4vw;
@@ -1634,21 +1610,21 @@ nav[role="navigation"] a.animating-link {
   }
 }
 @media (min-width: 35em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003484}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003483}}
   .beingpresent-on .beingpresent .card {
     width: 25vw;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003487}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003486}}
   .beingpresent-on .beingpresent .fourth {
     display: block;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003490}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003489}}
   .beingpresent-on .beingpresent h1 {
     top: 1vh;
     left: 2vw;
     font-size: 6vw;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003495}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003494}}
   .beingpresent-on .beingpresent p {
     padding: 1em;
     font-size: 2vw;
@@ -1656,20 +1632,20 @@ nav[role="navigation"] a.animating-link {
   }
 }
 @media (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003502}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003501}}
   .beingpresent-on .beingpresent h1 {
     top: 1vh;
     left: 2vw;
     font-size: 5vw;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003507}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003506}}
   .beingpresent-on .beingpresent p {
     padding: 1em;
     font-size: 2vw;
     line-height: 2.6vw;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003513}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003512}}
 .beingpresent-on .beingpresent .front {
   position: absolute;
   display: block;
@@ -1693,12 +1669,12 @@ nav[role="navigation"] a.animating-link {
   -o-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003518}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003517}}
 .beingpresent-on .beingpresent .front img {
   height: 100%;
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003527}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003526}}
 .beingpresent-on .beingpresent .back {
   position: absolute;
   display: block;
@@ -1721,7 +1697,7 @@ nav[role="navigation"] a.animating-link {
   -o-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003543}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003542}}
 .beingpresent-on .beingpresent .flip .front {
   -webkit-transform: rotateY(-180deg);
   -moz-transform: rotateY(-180deg);
@@ -1729,7 +1705,7 @@ nav[role="navigation"] a.animating-link {
   -o-transform: rotateY(-180deg);
   transform: rotateY(-180deg);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003546}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003545}}
 .beingpresent-on .beingpresent .flip .back {
   -webkit-transform: rotateY(0deg);
   -moz-transform: rotateY(0deg);
@@ -1738,7 +1714,7 @@ nav[role="navigation"] a.animating-link {
   transform: rotateY(0deg);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003561}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003560}}
 .meditating-on .meditating {
   display: block;
   overflow: hidden;
@@ -1747,42 +1723,42 @@ nav[role="navigation"] a.animating-link {
   left: 0;
   width: 100%;
   min-height: 100vh;
+  padding: 0.5em;
+  background: url("../images/nietnagel-snow.jpg") no-repeat fixed center center #d8d8d8;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding: 0.5em;
-  background: url("../images/nietnagel-snow.jpg") no-repeat fixed center center/cover #d8d8d8;
   color: #fff;
   text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);
   text-align: center;
   padding-top: 5vh;
 }
 @media (min-width: 25em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003561}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003560}}
   .meditating-on .meditating {
     padding: 1em 2em;
   }
 }
 @media (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003561}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003560}}
   .meditating-on .meditating {
     padding: 4em 8em;
   }
 }
 @media (min-width: 20em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003561}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003560}}
   .meditating-on .meditating {
     padding-top: 10vh;
   }
 }
 @media (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003561}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003560}}
   .meditating-on .meditating {
     padding-top: 20vh;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003581}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003581}}
 .meditating-on .meditating p {
   width: 89vw;
   text-indent: 0;
@@ -1796,39 +1772,39 @@ nav[role="navigation"] a.animating-link {
   z-index: 100;
 }
 @media (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003581}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003581}}
   .meditating-on .meditating p {
     width: 75%;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003596}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003596}}
 .meditating-on .meditating p:nth-child(1) {
   opacity: 1;
   -webkit-animation-delay: 0;
   animation-delay: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003601}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003601}}
 .meditating-on .meditating p:nth-child(2) {
   -webkit-animation-delay: 10s;
   animation-delay: 15s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003605}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003605}}
 .meditating-on .meditating p:nth-child(3) {
   -webkit-animation-delay: 20s;
   animation-delay: 30s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003609}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003609}}
 .meditating-on .meditating p:nth-child(4) {
   -webkit-animation-delay: 30s;
   animation-delay: 45s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003613}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003613}}
 .meditating-on .meditating p:nth-child(5) {
   -webkit-animation-delay: 40s;
   animation-delay: 60s;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003624}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003624}}
 .disconnecting-on .disconnecting {
   padding: 0 2em 0 33vw;
   display: block;
@@ -1838,15 +1814,15 @@ nav[role="navigation"] a.animating-link {
   left: 0;
   width: 100%;
   min-height: 100vh;
+  background: url("../images/nietnagel-mountain.jpg") no-repeat fixed center center #edebff;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background: url("../images/nietnagel-mountain.jpg") no-repeat fixed center center/cover #edebff;
   color: #fff;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003636}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/coconnor\/projects\/jsd\/chromeexperiment\/sass\/styles\.scss}line{font-family:\00003637}}
 .looking-on .looking {
   display: block;
   overflow: hidden;
@@ -1855,10 +1831,10 @@ nav[role="navigation"] a.animating-link {
   left: 0;
   width: 100%;
   min-height: 100vh;
+  padding: 0 0 0 33vw;
+  background: #e39102 url("../images/nietnagel-fall.jpg") no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding: 0 0 0 33vw;
-  background: url("../images/nietnagel-fall.jpg") no-repeat center center/cover #e39102;
 }
