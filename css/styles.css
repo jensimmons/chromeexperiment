@@ -1017,7 +1017,7 @@ dl {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\0000344}}
 .breathing,
 .beingpresent,
-.mediating,
+.meditating,
 .connecting,
 .hiding,
 .disconnecting,
@@ -1122,7 +1122,7 @@ nav[role="navigation"] a.beingpresent-link {
   background: url("../images/square/nietnagel-marsh.jpg") center center no-repeat;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003109}}
-nav[role="navigation"] a.mediating-link {
+nav[role="navigation"] a.meditating-link {
   background: url("../images/square/nietnagel-snow.jpg") center center no-repeat;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003112}}
@@ -1625,7 +1625,7 @@ nav[role="navigation"] a.animating-link {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003494}}
-.mediating-on .mediating {
+.meditating-on .meditating {
   display: block;
   overflow: hidden;
   position: absolute;
@@ -1646,30 +1646,30 @@ nav[role="navigation"] a.animating-link {
 }
 @media (min-width: 25em) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003494}}
-  .mediating-on .mediating {
+  .meditating-on .meditating {
     padding: 1em 2em;
   }
 }
 @media (min-width: 40em) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003494}}
-  .mediating-on .mediating {
+  .meditating-on .meditating {
     padding: 4em 8em;
   }
 }
 @media (min-width: 20em) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003494}}
-  .mediating-on .mediating {
+  .meditating-on .meditating {
     padding-top: 10vh;
   }
 }
 @media (min-width: 40em) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003494}}
-  .mediating-on .mediating {
+  .meditating-on .meditating {
     padding-top: 20vh;
   }
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003514}}
-.mediating-on .mediating p {
+.meditating-on .meditating p {
   width: 89vw;
   text-indent: 0;
   background: rgba(0, 0, 0, 0.4);
@@ -1683,33 +1683,33 @@ nav[role="navigation"] a.animating-link {
 }
 @media (min-width: 40em) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003514}}
-  .mediating-on .mediating p {
+  .meditating-on .meditating p {
     width: 75%;
   }
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003529}}
-.mediating-on .mediating p:nth-child(1) {
+.meditating-on .meditating p:nth-child(1) {
   opacity: 1;
   -webkit-animation-delay: 0;
   animation-delay: 0;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003534}}
-.mediating-on .mediating p:nth-child(2) {
+.meditating-on .meditating p:nth-child(2) {
   -webkit-animation-delay: 15s;
   animation-delay: 15s;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003538}}
-.mediating-on .mediating p:nth-child(3) {
+.meditating-on .meditating p:nth-child(3) {
   -webkit-animation-delay: 30s;
   animation-delay: 30s;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003542}}
-.mediating-on .mediating p:nth-child(4) {
+.meditating-on .meditating p:nth-child(4) {
   -webkit-animation-delay: 45s;
   animation-delay: 45s;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/Google\%20Chrome\%20Experiment\/experiment\/sass\/styles\.scss}line{font-family:\00003546}}
-.mediating-on .mediating p:nth-child(5) {
+.meditating-on .meditating p:nth-child(5) {
   -webkit-animation-delay: 60s;
   animation-delay: 60s;
 }

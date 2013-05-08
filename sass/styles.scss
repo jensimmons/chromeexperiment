@@ -35,7 +35,7 @@ dl {
 
 .breathing, 
 .beingpresent, 
-.mediating, 
+.meditating, 
 .connecting, 
 .hiding, 
 .disconnecting, 
@@ -106,7 +106,7 @@ nav[role="navigation"] {
   a.beingpresent-link {
     background: url('../images/square/nietnagel-marsh.jpg') center center no-repeat;
   }
-  a.mediating-link {
+  a.meditating-link {
     background: url('../images/square/nietnagel-snow.jpg') center center no-repeat;
   }
   a.disconnecting-link {
@@ -218,7 +218,7 @@ nav[role="navigation"] {
 
 .breathing-on .breathing-link,
 .beingpresent-on .beingpresent-link,
-.mediating-on .mediating-link,
+.meditating-on .meditating-link,
 .disconnecting-on .disconnecting-link,
 .looking-on .looking-link,
 .animating-on .animating-link {
@@ -490,8 +490,8 @@ nav[role="navigation"] {
 
 // ----------------------------------------- Meditating ------------------------------------------
 
-.mediating-on {
-  .mediating {
+.meditating-on {
+  .meditating {
     @include make-a-page;
     padding: 0.5em;
     @media (min-width: 25em) { 
