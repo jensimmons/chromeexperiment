@@ -15,52 +15,105 @@
       $(this).parents('body').removeClass('nav-collapsed').addClass('nav-showing');
     });
 
-// Any time any navigation icon is clicked, shrink the navigation into the corner & show the new panel
+// Bind a handler for state: breathing
+    $.History.bind('/breathing',function(state){
+      $('body').removeClass().addClass('breathing-on nav-collapsed');
+         });
     $('nav a.breathing-link').on('click', function (evt) {
       evt.preventDefault();
       evt.stopPropagation();
-      $(this).parents('body').removeClass().addClass('breathing-on nav-collapsed');
+      $.History.go('/breathing');
+    });
+
+// Bind a handler for state: beingpresent
+    $.History.bind('/beingpresent',function(state){
+      $('body').removeClass().addClass('beingpresent-on nav-collapsed');
     });
     $('nav a.beingpresent-link').on('click', function (evt) {
       evt.preventDefault();
       evt.stopPropagation();
-      $(this).parents('body').removeClass().addClass('beingpresent-on nav-collapsed');
+      $.History.go('/beingpresent');
+    });
+
+// Bind a handler for state: mediating
+    $.History.bind('/mediating',function(state){
+      $('body').removeClass().addClass('mediating-on nav-collapsed');
     });
     $('nav a.mediating-link').on('click', function (evt) {
       evt.preventDefault();
       evt.stopPropagation();
-      $(this).parents('body').removeClass().addClass('mediating-on nav-collapsed');
+      $.History.go('/mediating');
+    });
+
+// Bind a handler for state: connecting
+    $.History.bind('/connecting',function(state){
+      $('body').removeClass().addClass('connecting-on nav-collapsed');
     });
     $('nav a.connecting-link').on('click', function (evt) {
       evt.preventDefault();
       evt.stopPropagation();
-      $(this).parents('body').removeClass().addClass('connecting-on nav-collapsed');
+      $.History.go('/connecting');
+    });
+
+// Bind a handler for state: hiding
+    $.History.bind('/hiding',function(state){
+      $('body').removeClass().addClass('hiding-on nav-collapsed');
     });
     $('nav a.hiding-link').on('click', function (evt) {
       evt.preventDefault();
       evt.stopPropagation();
-      $(this).parents('body').removeClass().addClass('hiding-on nav-collapsed');
+      $.History.go('/hiding');
+    });
+    
+// Bind a handler for state: disconnecting
+    $.History.bind('/disconnecting',function(state){
+      $('body').removeClass().addClass('disconnecting-on nav-collapsed');
     });
     $('nav a.disconnecting-link').on('click', function (evt) {
       evt.preventDefault();
       evt.stopPropagation();
-      $(this).parents('body').removeClass().addClass('disconnecting-on nav-collapsed');
+      $.History.go('/disconnecting');
+    });
+    
+// Bind a handler for state: hiding
+    $.History.bind('/hiding',function(state){
+      $('body').removeClass().addClass('hiding-on nav-collapsed');
+    });
+    $('nav a.hiding-link').on('click', function (evt) {
+      evt.preventDefault();
+      evt.stopPropagation();
+      $.History.go('/hiding');
+    });
+    
+// Bind a handler for state: looking
+    $.History.bind('/looking',function(state){
+      $('body').removeClass().addClass('looking-on nav-collapsed');
     });
     $('nav a.looking-link').on('click', function (evt) {
       evt.preventDefault();
       evt.stopPropagation();
-      $(this).parents('body').removeClass().addClass('looking-on nav-collapsed');
+      $.History.go('/looking');
+    });
+
+// Bind a handler for state: feeling
+    $.History.bind('/feeling',function(state){
+      $('body').removeClass().addClass('feeling-on nav-collapsed');
     });
     $('nav a.feeling-link').on('click', function (evt) {
       evt.preventDefault();
       evt.stopPropagation();
-      $(this).parents('body').removeClass().addClass('feeling-on nav-collapsed');
-    });    
+      $.History.go('/feeling');
+    });
+
+// Bind a handler for state: home
+    $.History.bind('/home',function(state){
+      $('body').removeClass().addClass('start nav-collapsed');
+    });
     $('nav a.home-link').on('click', function (evt) {
       evt.preventDefault();
       evt.stopPropagation();
-      $(this).parents('body').removeClass().addClass('start nav-collapsed');
-    });    
+      $.History.go('/home');
+    });
 
 
 // Switch classes to trigger flip of content
