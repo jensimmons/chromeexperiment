@@ -110,13 +110,13 @@
     });
 
 // Bind a handler for state: home
-    $.History.bind('/animation',function(state){
-      $('body').removeClass().addClass('start nav-collapsed');
+    $.History.bind('/animating',function(state){
+      $('body').removeClass().addClass('animating-on nav-collapsed');
     });
-    $('nav a.animation-link').on('click', function (evt) {
+    $('nav a.animating-link').on('click', function (evt) {
       evt.preventDefault();
       evt.stopPropagation();
-      $.History.go('/animation');
+      $.History.go('/animating');
     });
 
 

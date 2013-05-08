@@ -41,7 +41,7 @@ dl {
 .disconnecting, 
 .looking, 
 .feeling,
-.animation {
+.animating {
   display: none;
 }
 
@@ -115,7 +115,7 @@ nav[role="navigation"] {
   a.looking-link {
     background: url('../images/square/nietnagel-fall.jpg') center center no-repeat;
   }
-  a.animation-link {
+  a.animating-link {
     background: url('../images/square/nietnagel-woods.jpg') center center no-repeat;    
   }
 }
@@ -166,23 +166,23 @@ nav[role="navigation"] {
       }
       a:nth-child(2) {
         transform: translate(26vw, 5vh);
-      -webkit-transform: translate(100px, 100px);
+        -webkit-transform: translate(100px, 100px);
       }
       a:nth-child(3) {
         transform: translate(24vw, 40vh);
-      -webkit-transform: translate(50px, 150px);
+        -webkit-transform: translate(50px, 150px);
       }
       a:nth-child(4) {
         transform: translate(12vw, 22vh);
-      -webkit-transform: translate(150px, 100px);
+        -webkit-transform: translate(150px, 100px);
       }
       a:nth-child(5) {
         transform: translate(1vw, 45vh);
-      -webkit-transform: translate(220px, 40px);
+        -webkit-transform: translate(220px, 40px);
       }
       a:nth-child(6) {
         transform: translate(15vw, 65vh);
-      -webkit-transform: translate(200px, 180px);
+        -webkit-transform: translate(200px, 180px);
       }
     }  
     
@@ -197,12 +197,31 @@ nav[role="navigation"] {
   }
 }
 
+@keyframes hide {
+  0% { opacity: 1 }
+  50% { opacity: 1 }
+  100% { opacity: 0.1 }
+}
+.nav-collapsed {
+  nav[role="navigation"] a {
+    -webkit-animation-name: hide;
+    -webkit-animation-duration: 20ms;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-delay: 280ms; 
+    
+    animation-name: hide;
+    animation-duration: 20ms;
+    animation-fill-mode: forwards;
+    animation-delay: 280ms; 
+  }
+}
+
 .breathing-on .breathing-link,
 .beingpresent-on .beingpresent-link,
 .mediating-on .mediating-link,
 .disconnecting-on .disconnecting-link,
 .looking-on .looking-link,
-.start .animation-link {
+.animating-on .animating-link {
 //  display: none;
 }
 
@@ -224,114 +243,114 @@ nav[role="navigation"] {
 
 // ----------------------------------------- Home ------------------------------------------------
 
-.start {
-.animation {
-  @include make-a-page;
-  padding: 0;
-  @media (min-width: 25em) { // redundantly overriding something from above
+.animating-on {
+  .animating {
+    @include make-a-page;
     padding: 0;
-  }
-  background: #356019 url('../images/nietnagel-woods.jpg') center center;
-  @include background-size (cover);
-  color: #fff;
-  a, a:link, a:visited, a:focus {
+    @media (min-width: 25em) { // redundantly overriding something from above
+      padding: 0;
+    }
+    background: #356019 url('../images/nietnagel-woods.jpg') center center;
+    @include background-size (cover);
     color: #fff;
-  }
-  dl {
-    position: relative;
-    @include clearfix;
-    background: rgba( 0,0,0,0.5);
-    padding: 1.2em 2em 1.2em 1.1em;
-    height: 50vh;
-    margin-top: 50vh;
-    @media (min-width: 30em) { 
-      float: right;
-      width: 50vw;
-      height: 100vh;
-      margin: 0;
-    }      
-  }
-  dt {
-    font-size: 2em;
-    small {
-      font-size: 0.8rem;
-      margin-left: 2em;
+    a, a:link, a:visited, a:focus {
+      color: #fff;
     }
-  }
-  dd {
-    position: absolute;
-    top: 0;
-    margin: 3.6em 1.6em 3.6em 1em;
-    @media (min-width: 30em) { 
-      margin: 50vh 2em 0 0;
+    dl {
+      position: relative;
+      @include clearfix;
+      background: rgba( 0,0,0,0.5);
+      padding: 1.2em 2em 1.2em 1.1em;
+      height: 50vh;
+      margin-top: 50vh;
+      @media (min-width: 30em) { 
+        float: right;
+        width: 50vw;
+        height: 100vh;
+        margin: 0;
+      }      
     }
-    @media (min-width: 35em) { 
-      font-size: 1.8em;
-      line-height: 1.2em;
+    dt {
+      font-size: 2em;
+      small {
+        font-size: 0.8rem;
+        margin-left: 2em;
+      }
     }
-    opacity: 0;
-    -webkit-animation-name: crossfade;
-    -webkit-animation-duration: 66s;
-    -webkit-animation-timing-function: ease-in;
-    -webkit-animation-fill-mode: normal;
-    animation-name: crossfade;
-    animation-duration: 66s;
-    animation-timing-function: ease-in;
-    animation-fill-mode: normal;
-    &:nth-child(2) {
-      -webkit-animation-delay: 0; 
-      animation-delay: 0; 
+    dd {
+      position: absolute;
+      top: 0;
+      margin: 3.6em 1.6em 3.6em 1em;
+      @media (min-width: 30em) { 
+        margin: 50vh 2em 0 0;
+      }
+      @media (min-width: 35em) { 
+        font-size: 1.8em;
+        line-height: 1.2em;
+      }
+      opacity: 0;
+      -webkit-animation-name: crossfade;
+      -webkit-animation-duration: 66s;
+      -webkit-animation-timing-function: ease-in;
+      -webkit-animation-fill-mode: normal;
+      animation-name: crossfade;
+      animation-duration: 66s;
+      animation-timing-function: ease-in;
+      animation-fill-mode: normal;
+      &:nth-child(2) {
+        -webkit-animation-delay: 0; 
+        animation-delay: 0; 
+      }
+      &:nth-child(3) { 
+        -webkit-animation-delay: 6s; 
+        animation-delay: 6s; 
+      }
+      &:nth-child(4) { 
+        -webkit-animation-delay: 12s; 
+        animation-delay: 12s; 
+      }
+      &:nth-child(5) { 
+        -webkit-animation-delay: 18s; 
+        animation-delay: 18s; 
+      }
+      &:nth-child(6) { 
+        -webkit-animation-delay: 24s; 
+        animation-delay: 24s; 
+      }
+      &:nth-child(7) {
+        -webkit-animation-delay: 30s; 
+        animation-delay: 30s; 
+      }
+      &:nth-child(8) { 
+        -webkit-animation-delay: 36s; 
+        animation-delay: 36s; 
+      }
+      &:nth-child(9) { 
+        -webkit-animation-delay: 42s; 
+        animation-delay: 42s; 
+      }
+      &:nth-child(10) { 
+        -webkit-animation-delay: 48s; 
+        animation-delay: 48s; 
+      }
+      &:nth-child(11) { 
+        -webkit-animation-delay: 54s; 
+        animation-delay: 54s; 
+      }
+      &:nth-child(12) { 
+        -webkit-animation-delay: 60s; 
+        animation-delay: 60s; 
+      }
+      &:nth-child(13) { 
+        -webkit-animation-delay: 33s; 
+        animation-delay: 33s; 
+      }
+      &:nth-child(14) { 
+        -webkit-animation-delay: 36s; 
+        animation-delay: 36s; 
+      }
     }
-    &:nth-child(3) { 
-      -webkit-animation-delay: 6s; 
-      animation-delay: 6s; 
-    }
-    &:nth-child(4) { 
-      -webkit-animation-delay: 12s; 
-      animation-delay: 12s; 
-    }
-    &:nth-child(5) { 
-      -webkit-animation-delay: 18s; 
-      animation-delay: 18s; 
-    }
-    &:nth-child(6) { 
-      -webkit-animation-delay: 24s; 
-      animation-delay: 24s; 
-    }
-    &:nth-child(7) {
-      -webkit-animation-delay: 30s; 
-      animation-delay: 30s; 
-    }
-    &:nth-child(8) { 
-      -webkit-animation-delay: 36s; 
-      animation-delay: 36s; 
-    }
-    &:nth-child(9) { 
-      -webkit-animation-delay: 42s; 
-      animation-delay: 42s; 
-    }
-    &:nth-child(10) { 
-      -webkit-animation-delay: 48s; 
-      animation-delay: 48s; 
-    }
-    &:nth-child(11) { 
-      -webkit-animation-delay: 54s; 
-      animation-delay: 54s; 
-    }
-    &:nth-child(12) { 
-      -webkit-animation-delay: 60s; 
-      animation-delay: 60s; 
-    }
-    &:nth-child(13) { 
-      -webkit-animation-delay: 33s; 
-      animation-delay: 33s; 
-    }
-    &:nth-child(14) { 
-      -webkit-animation-delay: 36s; 
-      animation-delay: 36s; 
-    }
-  }
-}  
+  }  
 }
 
 // ----------------------------------------- Breathing -------------------------------------------
