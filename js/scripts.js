@@ -41,7 +41,7 @@
       History.pushState({'class':'beingpresent'}, null, "?state=beingpresent");
     });
 
-    $('nav a.mediating-link').on('click', function (evt) {
+    $('nav a.meditating-link').on('click', function (evt) {
       evt.preventDefault();
       evt.stopPropagation();
       History.pushState({'class':'meditating'}, null, "?state=meditating");
