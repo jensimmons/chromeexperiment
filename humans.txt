@@ -7,25 +7,38 @@ twitter: @jensimmons
 http://jensimmons.com
 
 
+
 /* THANKS TO */
 
 Google Chrome Experiments
 
+Chris O'Connor, https://plus.google.com/101042705085907495872/posts
+
+
 
 /* PARTS & PIECES */  
 
+Prefix Free:                  http://leaverou.github.io/prefixfree/
+Usually I use Sass and Compass to handle prefix chaos, and would never imagine an additional js library is a good idea. Then I started writing CSS for animations. The complexity of vendor prefixes inside of vendor prefixes inside of vendor prefixes was driving me nuts. Compass doesn't handle transforms, transitions and animations... now I think I know why. It's a crazy mess. I was loosing hours of time to trying to fix bugs and still not getting anywhere. So I grabbed this library. Everything just worked immediately. Bugs gone. Done and don. 
+
+jQuery History:               http://balupton.github.io/jquery-history/demo/
+This little library allows one HTML file to have internal URLs, so you can point to a specific state inside the experience (sedning a link to a friend). You can also click the back button in the browser and have it work. 
+
 bits of HTML5 Boilerplate:    http://html5boilerplate.com
 bits of 320 and Up: 		      http://stuffandnonsense.co.uk/projects/320andup 
+I write my own HTML, but constantly steal bits and ideas from others, including from these two starterkits.
+
 Normalize:                    http://necolas.github.com/normalize.css
+A clean and simple reset. Only contains the bare minimum of what's needed.
+
 jQuery: 		                  http://jquery.com
 Modernizr: 	                  http://modernizr.com
 Selectivizr:                  http://selectivizr.com
-
-I use a lot of backgrounds from http://subtlepatterns.com.
-I'm liberally borrowing code from Codepen projects. http://codepen.io
+At the moment I'm not using Modernizer and Selectvizr, because they are needed for this project. But I might change my mind as I add backwards compatibiliy. I am using jQuery.
 
 
-/* I SO FORKED THEIR REPOS */
 
-One: forked from http://codepen.io/ryancolgin/pen/vdeml
+/* INSPIRATION */  
+
+I borrowed bits of code ideas from Codepen projects. http://codepen.io
 
